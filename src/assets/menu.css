@@ -1,0 +1,33 @@
+@font-face{
+  font-family: google;
+  src:url(https://fonts.googleapis.com/css2?family=Staatliches&display=swap)
+}
+
+.nav-container {
+  display: flex;
+  border: 1px solid red;
+  justify-content: right;
+  gap: 50px;
+  color: white;
+  background-color: black;
+  width: auto;
+  height: 25px;
+}
+
+.nav-container a{
+  color:white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px; 
+}
+
+.nav-container a:hover {
+  color: orange;
+}
+
+.nav-container-img {
+  display: flex;
+  border: 1px solid green;
+  gap: 20px;
+}
+
