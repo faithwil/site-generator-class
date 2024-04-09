@@ -1,8 +1,3 @@
-@font-face{
-  font-family: google;
-  src:url(https://fonts.googleapis.com/css2?family=Staatliches&display=swap)
-}
-
 .nav-container {
   display: flex;
   border: 1px solid red;
