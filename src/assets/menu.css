@@ -44,6 +44,11 @@
   max-width: 2000px;
   border: 1px solid red;
 }
+
+.scrolling-text-container {
+  width: 100%;
+  overflow: hidden;
+}
   
 #main-content p{
     color: white;
@@ -67,7 +72,14 @@
     }
   }
 
-.scrolling-text-container {
+.three-image-tabs {
+  display: flex;
+  border: 1px solid yellow;
+  flex-direction: row;
+  width: 100%
+}
+
+.three-image-tabs img{
   width: 100%;
-  overflow: hidden;
+  height: 100%;
 }
