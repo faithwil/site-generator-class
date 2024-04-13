@@ -6,6 +6,7 @@
   background-color: black;
   width: auto;
   height: 25px;
+  padding: 15px 0px 0px 0px;
 }
 
 .nav-container a{
@@ -23,6 +24,8 @@
   display: flex;
   border: 1px solid green;
   gap: 20px;
+  justify-content: left;
+
 }
 
 #main-content {
