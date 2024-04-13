@@ -59,6 +59,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: auto; /* Used to enable scrolling */
+  background: linear-gradient(black 25%, #1d1243 65%, #6846e3 100%);
 }
 
 .calendar-container {
@@ -106,6 +108,14 @@
   justify-content: left;
 }
 
+.song-of-the-week-info {
+  border: red 1px solid;
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
 .section-title-area{
   border: green 1px solid;
 }
