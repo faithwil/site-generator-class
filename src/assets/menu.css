@@ -31,7 +31,6 @@
 
 .main-content-container {
   background-color: black;
-  border: yellow 1px solid;
 }
 
 .main-content-text{
@@ -41,6 +40,40 @@
   padding: 0px 0px 0px 0px;
   margin: 0;
   color: white;
+}
+
+.sitename-container{
+  display:flex;
+  border: blue 1px solid;
+  justify-content: left;
+}
+
+.main-content-text-discover-page{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  padding: 0px 0px 0px 0px;
+  margin: 0;
+  color: white;
+}
+.main-content-container-discover-page {
+  background-color: black;
+  border: yellow 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calendar-container {
+  border: beige 1px solid;
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section-title-area{
+  
 }
 
 .main-content-link {
