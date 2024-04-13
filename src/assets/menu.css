@@ -168,6 +168,7 @@
   margin: 0;
   width: 100%;
   font-family: "Inter Tight";
+  font-weight: 250;
 }
 
 .section-feature-area{
@@ -185,7 +186,6 @@
   color: #00A651;
   margin: 0;
   height: 5px;
-
 }
 
 .artist-one{ 
@@ -263,6 +263,10 @@ width: 100px;
 height: 30px;
 font-family: "Inter Tight";
 font-weight: 250;
+}
+
+button:hover {
+  background-color: orange;
 }
 
 .playlist {
