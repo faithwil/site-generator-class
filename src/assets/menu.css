@@ -7,7 +7,6 @@
   width: auto;
   height: 25px;
   padding: 15px 0px 0px 0px;
-  border: red 1px solid;
 }
 
 .nav-container a{
@@ -73,7 +72,22 @@
 }
 
 .section-title-area{
-  
+  border: green 1px solid;
+}
+
+.section-title-month{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-title-days{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-title-phrase{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .main-content-link {
