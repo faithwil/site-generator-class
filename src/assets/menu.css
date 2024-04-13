@@ -116,6 +116,16 @@
   flex-wrap: wrap;
   justify-content: left;
 }
+
+.playlists {
+  border: red 1px solid;
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
 .section-title-area{
   border: green 1px solid;
 }
