@@ -99,10 +99,30 @@
   display: flex;
   width: 100%;
   justify-content: center;
-  
 }
 
 .music-video {
   width: 80%;
   height: 30%;
+}
+
+.spotify-bar-container {
+  display: flex;
+  justify-content: center;
+}
+
+.spotify-bar {
+  padding: 75px 0px 0px 0px;
+} 
+
+.footer-container {
+  border: 1px solid red;
+  background-color: black;
+  text-align: center; 
+}
+
+.footer-text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+
 }
