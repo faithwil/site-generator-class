@@ -43,6 +43,10 @@
   color: white;
 }
 
+.main-content-link {
+  text-decoration: none;
+}
+
 .collage-container{
   display: flex;
   width: 100%;
