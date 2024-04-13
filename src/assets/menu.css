@@ -124,5 +124,8 @@
 .footer-text {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
+}
 
+body{
+  margin: 0;
 }
