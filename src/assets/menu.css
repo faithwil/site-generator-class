@@ -184,7 +184,7 @@
   font-weight: 250;
   color: #00A651;
   margin: 0;
-  height: 12px;
+  height: 5px;
 
 }
 
@@ -193,7 +193,8 @@
   font-family: "Inter Tight";
   font-size: 25px;
   font-weight: 250;
-  height: 12px;
+  height: 5px;
+  padding: 0px 0px 0px 40px;
 }
 
 .artist-two{ 
@@ -201,7 +202,8 @@
   font-family: "Inter Tight";
   font-size: 25px;
   font-weight: 250;
-  height: 12px;
+  height: 5px;
+  padding: 0px 0px 0px 120px;
 }
 
 .artist-three{ 
@@ -209,7 +211,8 @@
   font-family: "Inter Tight";
   font-size: 25px;
   font-weight: 250;
-  height: 12px;
+  height: 5px;
+  padding: 0px 0px 0px 85px;
 }
 
 .artist-four{ 
@@ -217,7 +220,8 @@
   font-family: "Inter Tight";
   font-size: 25px;
   font-weight: 250;
-  height: 12px;
+  height: 5px;
+  padding:0px 0px 0px 40px;
 }
 
 .artist-five{ 
@@ -225,7 +229,26 @@
   font-family: "Inter Tight";
   font-size: 25px;
   font-weight: 250;
-  height: 12px;
+  height: 5px;
+  padding: 0px 0px 0px 115px;
+}
+
+.artist-six{ 
+  color: white;
+  font-family: "Inter Tight";
+  font-size: 25px;
+  font-weight: 250;
+  height: 5px;
+  padding: 0px 0px 0px 236px;
+}
+
+.artist-seven{ 
+  color: white;
+  font-family: "Inter Tight";
+  font-size: 25px;
+  font-weight: 250;
+  height: 5px;
+  padding: 0px 0px 0px 190px;
 }
 
 button{
@@ -234,7 +257,7 @@ color: white;
 font-size: 20px;
 cursor: pointer;
 overflow: hidden;
-border-radius: 25px;
+border-radius: 20px;
 border-color: white;
 width: 100px;
 height: 30px;
@@ -242,14 +265,17 @@ font-family: "Inter Tight";
 font-weight: 250;
 }
 
+.playlist {
+  padding: 5px 0px 0px 220px;
+}
 .date{ 
   color: white;
   text-transform: uppercase;
   font-family: "Inter Tight";
   font-weight: 250;
-  font-size:45px;
+  font-size:68px;
   margin: 0;
-  padding: 42px 0px 0px 0px;
+  padding: 0px 0px 0px 40px;
 }
 .main-content-link {
   text-decoration: none;
