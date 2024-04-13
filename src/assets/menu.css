@@ -75,6 +75,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
+  padding: 60px 0px 0px 0px 
 }
 
 .song-number-one {
@@ -132,7 +133,7 @@
 }
 
 .section-title-area{
-  border: green 1px solid;
+  border: transparent 1px solid;
 }
 
 .section-title-one{
@@ -172,7 +173,7 @@
 }
 
 .section-feature-area{
-  border: teal 1px solid;
+  border: transparent 1px solid;
   width: 26%;
 }
 
