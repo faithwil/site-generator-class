@@ -80,54 +80,72 @@
 
 .song-number-one {
   border: pink 1px solid;
-  max-width: 1000px;
+  max-width: 1300px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
-}
-
-.song-number-one-text{
-  color:white;
-  border: 1px solid lightblue;
-
+  padding: 175px 0px 0px 0px;
 }
 
 .song-number-one-album{
+  display: flex;
   border: 1px solid orange;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+  gap: 33px;
 }
 
 .album-image{
-  width: 170px;
-  height: 170px;
+  width: 300px;
+  height: 300px;
 }
 
-.song-number-two {
+.album-descriptions-container {
   border: grey 1px solid;
-  max-width: 1000px;
+  max-width: 1300px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
 }
 
-.song-number-three {
-  border: purple 1px solid;
-  max-width: 1000px;
-  width: 100%;
+.album-title-area-one{
+  border: yellow 1px solid;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: left;
+  flex-direction: column;
 }
 
-.song-number-four {
-  border: orange 1px solid;
-  max-width: 1000px;
-  width: 100%;
+.album-title-area-two{
+  border: lightcoral 1px solid;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: left;
+  flex-direction: column;
 }
+
+.album-title-area-three{
+  border: greenyellow 1px solid;
+  display: flex;
+  flex-direction: column;
+}
+
+.album-title-area-four{
+  border: plum 1px solid;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-title-song{
+color: white;
+}
+
+.section-title-artist{
+  color: white;
+  }
+
+.section-title-genre{
+    color: white;
+    }
 
 .song-of-the-week-info {
   border: red 1px solid;
@@ -179,7 +197,6 @@
 
 .section-description{
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
   margin: 0;
   width: 100%;
