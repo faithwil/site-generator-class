@@ -298,12 +298,16 @@
   display: flex;
   border: 1px solid olive;
   flex-direction: row;
+  justify-content: center;
 }
 
 .song-of-the-day-description-left {
   border: 1px solid burlywood;
   display: flex;
   flex-direction: column;
+  width: 400px;
+  justify-content: left;
+  margin: 0;
 }
 .sotdl-one {
   color: white;
@@ -329,13 +333,14 @@
   font-weight: 500;
   font-size: 25px;
   margin: 0;
-  padding: 0px 0px 0px 5.5px 
 }
 
 .song-of-the-day-description-right {
   border: 1px solid lawngreen;
   display: flex;
   flex-direction: column;
+  width: 400px;
+  justify-content: left;
 }
 
 .sotdr-one{
