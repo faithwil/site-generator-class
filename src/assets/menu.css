@@ -206,7 +206,43 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  padding: 150px 0px 0px 0px;
+  flex-direction: column;
+}
+
+.song-of-the-week-description-left{
+  border: mediumturquoise solid;
+  max-width: 1300px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: left;
+}
+
+.song-of-the-week-description-right{
+  border: lemonchiffon 1px solid;
+  max-width: 1300px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.song-of-the-week-image-and-text{
+  border: 1px solid rgb(255, 182, 245);
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.sotw-image{
+  width: 800px;
+}
+
+.sotw-title {
+  display: flex;
+  border: solid 1px rosybrown;
 }
 
 .playlists {
