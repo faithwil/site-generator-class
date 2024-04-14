@@ -240,9 +240,57 @@
   width: 800px;
 }
 
-.sotw-title {
+.sotw-title-container {
   display: flex;
   border: solid 1px rosybrown;
+  justify-content: center;
+}
+
+.sotw-title-container-two{
+  display: flex;
+  border: solid 1px yellow;
+  flex-direction: column;
+  
+}
+
+.sotw-title-one {
+  color: white;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 70px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.sotw-title-two {
+  color: white;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0;
+  padding: 15px 0px 0px 0px;
+  height: 17px;
+  text-transform: uppercase;
+}
+
+.sotw-title-three {
+  color: white;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0;
+  height: 17px;
+  padding: 0px 0px 0px 5px;
+  text-transform: uppercase;
+}
+
+.sotw-title-four {
+  color: white;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0;
+  text-transform: uppercase;
 }
 
 .playlists {
