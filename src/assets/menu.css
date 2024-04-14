@@ -200,7 +200,7 @@
     font-weight: 500;
     }
 
-.song-of-the-week-info {
+.song-of-the-day-info {
   border: red 1px solid;
   max-width: 1300px;
   width: 100%;
@@ -211,7 +211,7 @@
   flex-direction: column;
 }
 
-.song-of-the-week-description-left{
+.song-of-the-day-description-left{
   border: mediumturquoise solid;
   max-width: 1300px;
   width: 100%;
@@ -220,7 +220,7 @@
   justify-content: left;
 }
 
-.song-of-the-week-description-right{
+.song-of-the-day-description-right{
   border: lemonchiffon 1px solid;
   max-width: 1300px;
   width: 100%;
@@ -229,31 +229,32 @@
   justify-content: left;
 }
 
-.song-of-the-week-image-and-text{
+.song-of-the-day-image-and-text{
   border: 1px solid rgb(255, 182, 245);
   display: flex;
   width: 100%;
   justify-content: center;
 }
 
-.sotw-image{
+.sotd-image{
   width: 800px;
 }
 
-.sotw-title-container {
+.sotd-title-container {
   display: flex;
   border: solid 1px rosybrown;
   justify-content: center;
+  margin: 0;
 }
 
-.sotw-title-container-two{
+.sotd-title-container-two{
   display: flex;
   border: solid 1px yellow;
   flex-direction: column;
   
 }
 
-.sotw-title-one {
+.sotd-title-one {
   color: white;
   font-family: "Inter Tight";
   font-weight: 500;
@@ -262,7 +263,7 @@
   text-transform: uppercase;
 }
 
-.sotw-title-two {
+.sotd-title-two {
   color: white;
   font-family: "Inter Tight";
   font-weight: 500;
@@ -273,7 +274,7 @@
   text-transform: uppercase;
 }
 
-.sotw-title-three {
+.sotd-title-three {
   color: white;
   font-family: "Inter Tight";
   font-weight: 500;
@@ -284,13 +285,70 @@
   text-transform: uppercase;
 }
 
-.sotw-title-four {
+.sotd-title-four {
   color: white;
   font-family: "Inter Tight";
   font-weight: 500;
   font-size: 20px;
   margin: 0;
   text-transform: uppercase;
+}
+
+.sotd-container {
+  display: flex;
+  border: 1px solid olive;
+  flex-direction: row;
+}
+
+.song-of-the-day-description-left {
+  border: 1px solid burlywood;
+  display: flex;
+  flex-direction: column;
+}
+.sotdl-one {
+  color: white;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  margin: 0;
+  font-size: 125px;
+  height: 100px;
+}
+
+.sotdl-two {
+  color: white;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  margin: 0;
+  font-size: 125px;
+  height: 140px;
+}
+
+.sotdl-three {
+  color: white;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 25px;
+  margin: 0;
+  padding: 0px 0px 0px 5.5px 
+}
+
+.song-of-the-day-description-right {
+  border: 1px solid lawngreen;
+  display: flex;
+  flex-direction: column;
+}
+
+.sotdr-one{
+color: white;
+font-family: "Inter Tight";
+font-weight: 500;
+margin: 0;
+}
+
+.sotdr-two{
+  color: white;
+  font-family: "Inter Tight";
+  font-weight: 500;
 }
 
 .playlists {
