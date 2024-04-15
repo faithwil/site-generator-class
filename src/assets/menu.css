@@ -613,6 +613,7 @@ button:hover {
       flex-wrap: wrap;
       justify-content: center;
       gap: 31px;
+      padding-bottom: 40px;
     }
     
     .playlist-title-area-one{
