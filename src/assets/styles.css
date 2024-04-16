@@ -2,6 +2,7 @@
 
 body {
   font-family: "Inter Tight", sans-serif;
+  margin: 0
 }
 
 .nav-container {
@@ -759,8 +760,4 @@ button:hover {
 .footer-text {
 
   color: white;
-}
-
-body {
-  margin: 0;
 }

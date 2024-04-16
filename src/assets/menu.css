@@ -37,7 +37,7 @@
   align-items: stretch;
   width: 100%;
   height: var(--header-height);
-  position: fixed;
+  position: static;
   z-index: 10;
   top: 0;
   left: 0;
@@ -49,8 +49,14 @@
 }
 .header-logo-link {
   display: flex;
-  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  width: 160px;
+  padding-top: 35px;
+  padding-left: 40px;
 }
+
 .header-logo-link:hover {
   color: orange;
   transition: color 0.3s;
@@ -126,6 +132,9 @@ main {
   margin-top: var(--header-height);
 }
 
+.main-content-container {
+  margin-top: 0;
+}
 /* this media query sets the point where the layout transitions from top bar to hamburger */
 @media (min-width: 640px) {
   /* this makes the top bar menu items go across in a row on desktop */
