@@ -1,732 +1,166 @@
-@font-face {
-  font-family: google;
-  src:url(https://fonts.googleapis.com/css2?family=Days+One&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap")
+
+:root {
+  /* this is the height of the header bar */
+  --header-height: 130px;
+  /* this is the background color of the header bar and panel */
+  --menu-bg: #000000;
+  --menu-highlight-hover: rgb(72, 72, 72);
 }
 
-.nav-container {
-  display: flex;
-  justify-content: right;
-  gap: 50px;
-  color: white;
-  background-color: black;
-  width: auto;
-  height: 45px;
-  padding: 35px 45px 0px 0px;
-  border: 1px solid red;
-
+* {
+  /* leave this on - it helps size things consistently */
+  box-sizing: content-box;
+  /* border: 1px solid red; */
 }
 
-.nav-container a{
-  color:white;
+.skip-link {
+  opacity: 0;
+  position: fixed;
+  z-index: 10000;
+  top: -10rem;
+  left: 1rem;
+  background-color: white;
+  font-size: 2rem;
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px; 
+  padding: 1rem;
 }
-
-.nav-container a:hover {
-  color: orange;
+.skip-link:focus {
+  top: 1rem;
+  opacity: 1;
+  transition: opacity 0.2s;
 }
-
-.nav-container-img {
+/* this is the component that contains the top nav bar */
+.main-nav-container {
   display: flex;
-  border: 1px solid green;
-  margin: 0;
-  justify-content: left;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+  height: var(--header-height);
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background: var(--menu-bg);
 }
-
-.nav-container img{
-  height: 40px;
-  width: 55px;
+/* this is img element that is the header logo */
+.header-logo {
+  padding: 1rem;
 }
-
-.main-content-container {
-  background-color: black;
-}
-
-.main-content-text{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 50px;
-  text-align: center;
-  padding: 0px 0px 0px 0px;
-  margin: 0;
-  color: white;
-}
-
-.sitename-container{
-  display:flex;
-  border: blue 1px solid;
-  justify-content: left;
-}
-
-.main-content-text-discover-page{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
-  padding: 0px 0px 0px 0px;
-  margin: 0;
-  color: white;
-}
-.main-content-container-discover-page {
-  background-color: black;
-  border: yellow 1px solid;
+.header-logo-link {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  height: auto; /* Used to enable scrolling */
-  background: linear-gradient(black 25%, #1d1243 65%, #6846e3 100%);
 }
-
-.new-releases-of-the-week-container {
-  border: transparent 1px solid;
-  max-width: 1300px;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: left;
-  padding: 60px 0px 0px 0px 
+.header-logo-link:hover {
+  color: orange;
+  transition: color 0.3s;
 }
-
-.song-number-one {
-  border: pink 1px solid;
-  max-width: 1300px;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: left;
-  padding: 175px 0px 0px 0px;
-}
-
-.song-number-one-album{
-  display: flex;
-  border: 1px solid orange;
-  justify-content: center;
-  margin: 0;
-  width: 100%;
-  gap: 33px;
-}
-
-.album-image{
-  width: 300px;
-  height: 300px;
-}
-
-.album-descriptions-container {
-  border: grey 1px solid;
-  max-width: 1300px;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: left;
-  gap: 31px;
-}
-
-.album-title-area-one{
-  border: yellow 1px solid;
+.nav-items-list {
   display: flex;
   flex-direction: column;
-  width:300px;
-}
-.album-title-area-one h2{
-  color: white;
-  text-transform: uppercase;
-  font-size: 19px;
-  font-family: "Inter Tight";
-  text-align: center;
-  height: 10px;
-  font-style: italic;
-}
-
-.album-title-area-two{
-  border: lightcoral 1px solid;
-  display: flex;
-  flex-direction: column;
-  width:299px;
-}
-
-.album-title-area-two h2{
-  color: white;
-  font-size: 19px;
-  font-family: "Inter Tight";
-  text-align: center;
-  height: 10px;
-  font-style: italic;
-}
-
-.album-title-area-three{
-  border: greenyellow 1px solid;
-  display: flex;
-  flex-direction: column;
-  width:300px;
-}
-
-.album-title-area-three h2{
-  color: white;
-  text-transform: uppercase;
-  font-size: 19px;
-  font-family: "Inter Tight";
-  text-align: center;
-  height: 10px;
-  font-style: italic;
-}
-
-.album-title-area-four{
-  border: plum 1px solid;
-  display: flex;
-  flex-direction: column;
-  width:300px;
-}
-
-.album-title-area-four h2{
-  color: white;
-  font-size: 19px;
-  font-family: "Inter Tight";
-  text-align: center;
-  height: 10px;
-  font-style: italic;
-}
-.section-title-artist{
-  color: white;
-  text-align: center;
-  font-size: 15px;
-  font-family: "Inter Tight";
-  height: 10px;
-  margin: 0;
-  }
-
-.section-title-genre{
-    color: white;
-    text-align: center;
-    font-size: 12px;
-    font-family: "Inter Tight";
-    font-weight: 500;
-    }
-
-.song-of-the-day-info {
-  border: red 1px solid;
-  max-width: 1300px;
+  position: absolute;
+  top: var(--header-height);
+  left: 0;
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 150px 0px 0px 0px;
-  flex-direction: column;
+  /* set this to auto if you don't want the mobile nav to fill the screen */
+
+  height: calc(100vh - 130px);
+  /* if you want the flyout nav to have a different background color, put it here */
+  background: var(--menu-bg);
+  transition: all 0.3s;
+  z-index: -10;
 }
 
-.song-of-the-day-description-left{
-  border: mediumturquoise solid;
-  max-width: 1300px;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: left;
+/* this is the class that is applied when the mobile nav disappears */
+.nav-items-list-hidden {
+  opacity: 0;
+  pointer-events: none;
+  /* you can replace this with a different transform to change the direction it moves out in */
+  transform: translateY(-100px);
+  transition: all 0.3s;
 }
-
-.song-of-the-day-description-right{
-  border: lemonchiffon 1px solid;
-  max-width: 1300px;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: left;
-}
-
-.song-of-the-day-image-and-text{
-  border: 1px solid rgb(255, 182, 245);
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
-
-.sotd-image{
-  width: 800px;
-}
-
-.sotd-title-container {
-  display: flex;
-  border: solid 1px rosybrown;
-  justify-content: center;
-  margin: 0;
-}
-
-.sotd-title-container-two{
-  display: flex;
-  border: solid 1px yellow;
-  flex-direction: column;
-  
-}
-
-.sotd-title-one {
-  color: white;
-  font-family: "Inter Tight";
-  font-weight: 500;
-  font-size: 70px;
-  margin: 0;
-  text-transform: uppercase;
-}
-
-.sotd-title-two {
-  color: white;
-  font-family: "Inter Tight";
-  font-weight: 500;
-  font-size: 20px;
-  margin: 0;
-  padding: 15px 0px 0px 0px;
-  height: 17px;
-  text-transform: uppercase;
-}
-
-.sotd-title-three {
-  color: white;
-  font-family: "Inter Tight";
-  font-weight: 500;
-  font-size: 20px;
-  margin: 0;
-  height: 17px;
-  padding: 0px 0px 0px 5px;
-  text-transform: uppercase;
-}
-
-.sotd-title-four {
-  color: white;
-  font-family: "Inter Tight";
-  font-weight: 500;
-  font-size: 20px;
-  margin: 0;
-  text-transform: uppercase;
-}
-
-.sotd-container {
-  display: flex;
-  border: 1px solid olive;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.song-of-the-day-description-left {
-  border: 1px solid burlywood;
-  display: flex;
-  flex-direction: column;
-  width: 400px;
-  justify-content: left;
-  margin: 0;
-}
-.sotdl-one {
-  color: white;
-  font-family: "Inter Tight";
-  font-weight: 500;
-  margin: 0;
-  font-size: 125px;
-  height: 100px;
-}
-
-.sotdl-two {
-  color: white;
-  font-family: "Inter Tight";
-  font-weight: 500;
-  margin: 0;
-  font-size: 125px;
-  height: 140px;
-}
-
-.sotdl-three {
-  color: white;
-  font-family: "Inter Tight";
-  font-weight: 500;
-  font-size: 25px;
-  margin: 0;
-}
-
-.song-of-the-day-description-right {
-  border: 1px solid lawngreen;
-  display: flex;
-  flex-direction: column;
-  width: 400px;
-  justify-content: left;
-  padding-top: 25px;
-}
-
-.sotdr-one{
-color: white;
-font-family: "Inter Tight";
-font-weight: 500;
-margin: 0;
-}
-
-.sotdr-two{
-  color: white;
-  font-family: "Inter Tight";
-  font-weight: 500;
-}
-
-.section-title-area{
-  border: transparent 1px solid;
-}
-
-.section-title-one{
-  color: white;
-  font-family: "Inter Tight";
-  font-weight: 250;
-  font-style: italic;
-  letter-spacing: -1px;
-  text-transform: uppercase;
-  font-size: 110px;
-  margin: 0;
-  width: 100%;
-  height: 100px;
-}
-
-.section-title-two{
-  color: white;
-  font-family: "Inter Tight";
-  font-weight: 250;
-  font-style: italic;
-  letter-spacing: -1px;
-  text-transform: uppercase;
-  font-size: 110px;
-  margin: 0;
-  width: 100%;
-  padding: 0px 0px 75px 0px
-}
-
-.section-description{
-  color: white;
-  font-size: 25px;
-  margin: 0;
-  width: 100%;
-  font-family: "Inter Tight";
-  font-weight: 250;
-}
-
-.section-feature-area{
-  border: transparent 1px solid;
-  width: 26%;
-}
-
-.section-feature{
-  color: white;
-  text-transform: uppercase;
-  font-family: "Inter Tight";
-  padding: 20px 0px 0px 40px;
-  font-size: 25px;
-  font-weight: 250;
-  color: #00A651;
-  margin: 0;
-  height: 5px;
-}
-
-.artist-one{ 
-  color: white;
-  font-family: "Inter Tight";
-  font-size: 25px;
-  font-weight: 250;
-  height: 5px;
-  padding: 0px 0px 0px 40px;
-}
-
-.artist-two{ 
-  color: white;
-  font-family: "Inter Tight";
-  font-size: 25px;
-  font-weight: 250;
-  height: 5px;
-  padding: 0px 0px 0px 120px;
-}
-
-.artist-three{ 
-  color: white;
-  font-family: "Inter Tight";
-  font-size: 25px;
-  font-weight: 250;
-  height: 5px;
-  padding: 0px 0px 0px 85px;
-}
-
-.artist-four{ 
-  color: white;
-  font-family: "Inter Tight";
-  font-size: 25px;
-  font-weight: 250;
-  height: 5px;
-  padding:0px 0px 0px 40px;
-}
-
-.artist-five{ 
-  color: white;
-  font-family: "Inter Tight";
-  font-size: 25px;
-  font-weight: 250;
-  height: 5px;
-  padding: 0px 0px 0px 115px;
-}
-
-.artist-six{ 
-  color: white;
-  font-family: "Inter Tight";
-  font-size: 25px;
-  font-weight: 250;
-  height: 5px;
-  padding: 0px 0px 0px 236px;
-}
-
-.artist-seven{ 
-  color: white;
-  font-family: "Inter Tight";
-  font-size: 25px;
-  font-weight: 250;
-  height: 5px;
-  padding: 0px 0px 0px 190px;
-}
-
-button{
-background-color: transparent;
-color: white;
-font-size: 20px;
-cursor: pointer;
-overflow: hidden;
-border-radius: 20px;
-border-color: white;
-width: 100px;
-height: 30px;
-font-family: "Inter Tight";
-font-weight: 250;
-}
-
-button:hover {
-  background-color: orange;
-}
-
-.button-playlist {
-  padding: 5px 0px 0px 220px;
-}
-
-.date{ 
-  color: white;
-  text-transform: uppercase;
-  font-family: "Inter Tight";
-  font-weight: 250;
-  font-size:68px;
-  margin: 0;
-  padding: 0px 0px 0px 40px;
-}
-.main-content-link {
+/* this is the styling that is applied to the menu links on mobile */
+.nav-items-list a {
+  color: #fff;
   text-decoration: none;
-}
-
-.collage-container{
-  display: flex;
-  width: 100%;
-}
-
-.homepage-collage {
-  width: 100%;
-  max-width: 2000px;
-}
-
-.scrolling-text-container-homepage {
-  width: 100%;
-  overflow: hidden;
-  background-color: black;
-}
-  
-.scrolling-text-homepage {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    word-spacing: 140px;
-    font-size: 45px;
-    text-align: center;
-    margin: 0px;
-    position: relative;
-    animation: move-words 15s linear infinite;
-    margin: 0;
-    white-space: nowrap;
-}
-
-@keyframes move-words {
-    0% {
-      left: 100%;
-    }
-    100% {
-      left: -100%;
-    }
-  }
-
-  .scrolling-text-container-discover {
-    width: 100%;
-    overflow: hidden;
-    background-color: white;
-  }
-    
-  .scrolling-text-discover {
-      color: black;
-      font-family: Arial, Helvetica, sans-serif;
-      word-spacing: 140px;
-      font-size: 45px;
-      text-align: center;
-      margin: 0px;
-      position: relative;
-      animation: move-words 15s linear infinite;
-      margin: 0;
-      white-space: nowrap;
-  }
-  
-  @keyframes move-words {
-      0% {
-        left: 100%;
-      }
-      100% {
-        left: -100%;
-      }
-    }
-
-  .playlists {
-      border: red 1px solid;
-      max-width: 1300px;
-      width: 100%;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: left;
-    }
-
-  .playlists-heading {
-    color: white;
-    font-family: "Inter Tight";
-  }
-
-    .linked-playlists-container{
-      display: flex;
-      border: 1px solid orange;
-      justify-content: center;
-      margin: 0;
-      width: 100%;
-      gap: 33px;
-    }
-    
-    .playlist-image{
-      width: 250px;
-      height: 250px;
-    }
-    
-    .playlists-descriptions-container {
-      border: grey 1px solid;
-      max-width: 1300px;
-      width: 100%;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 31px;
-      padding-bottom: 40px;
-    }
-    
-    .playlist-title-area-one{
-      border: yellow 1px solid;
-      display: flex;
-      flex-direction: column;
-      width:250px;
-    }
-    .playlist-title-one {
-      color: white;
-      text-transform: uppercase;
-      font-size: 19px;
-      font-family: "Inter Tight";
-      text-align: center;
-      height: 10px;
-      font-style: italic;
-    }
-    
-    .playlist-title-area-two{
-      border: lightcoral 1px solid;
-      display: flex;
-      flex-direction: column;
-      width:250px;
-    }
-    
-    .playlist-title-two {
-      color: white;
-      font-size: 19px;
-      font-family: "Inter Tight";
-      text-align: center;
-      height: 10px;
-      font-style: italic;
-    }
-    
-    .playlist-title-area-three{
-      border: greenyellow 1px solid;
-      display: flex;
-      flex-direction: column;
-      width:250px;
-    }
-    
-    .playlist-title-three {
-      color: white;
-      text-transform: uppercase;
-      font-size: 19px;
-      font-family: "Inter Tight";
-      text-align: center;
-      height: 10px;
-      font-style: italic;
-    }
-    
-    .playlist-caption{
-      color: white;
-      text-align: center;
-      font-size: 15px;
-      font-family: "Inter Tight";
-      height: 10px;
-      margin: 0;
-      }
-    
-
-.three-image-tabs {
-  display: flex;
-  flex-direction: row;
-  width: 100%
-}
-
-.three-image-tabs img{
-  width: 100%;
-  height: 100%;
-}
-
-.song-of-the-day {
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 80px;
-  padding: 10px 0px 0px 0px;
+  font-size: 2rem;
+  padding: 1rem;
   text-align: center;
-  margin: 75px 0px 75px 0px
+  transition: background-color 0.3s;
 }
-
-.music-video-container {
+.nav-items-list a:hover {
+  color: #f89a55;
+  transition: color 0.3s;
+}
+/* this is the element that contains the hamburger button that positions it vertically within the header bar */
+.nav-button-right {
+  height: var(--header-height);
   display: flex;
-  width: 100%;
-  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.sr-only {
+  opacity: 0 !important;
+  position: absolute !important;
+  pointer-events: none !important;
 }
 
-.music-video {
-  width: 80%;
-  height: 30%;
-}
-
-.spotify-bar-container {
+/* this is the actual button that toggles the menu */
+.btn-toggle-menu {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  gap: 2px;
+  align-items: center;
+  padding: 1rem;
+  border: none;
+  background: transparent;
+  z-index: 1000;
+}
+.btn-toggle-menu:hover {
+  background-color: white;
+}
+/* this makes sure the header doesn't cover any page content */
+main {
+  margin-top: var(--header-height);
 }
 
-.spotify-bar {
-  padding: 75px 0px 0px 0px;
-} 
+/* this media query sets the point where the layout transitions from top bar to hamburger */
+@media (min-width: 640px) {
+  /* this makes the top bar menu items go across in a row on desktop */
+  nav.main-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  /* this sets the gap between the logo and the nav items */
+  .main-nav-container {
+    gap: 1rem;
+  }
+  /* this is the element that contains the 3 nav items on DESKTOP */
+  .nav-items-list {
+    display: flex;
+    flex-direction: row;
+    position: static;
+    height: auto;
+    gap: 1rem;
+    z-index: 100;
+  }
+  /* this is the selector that makes sure the nav is always visible on desktop  */
+  .nav-items-list-hidden {
+    opacity: 1;
+    pointer-events: all;
+    transform: none;
+    transition: all 0.3s;
+  }
+  /* this is the selector that hides the nav on desktop */
+  .btn-toggle-menu {
+    display: none;
+  }
 
-.footer-container {
-  background-color: black;
-  text-align: center; 
-  padding: 0px 0px 15px 0px;
+  /* this is the styling that is applied to the menu links on desktop */
+  .nav-items-list a {
+    font-size: 1.5rem;
+  }
 }
-
-.footer-text {
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-}
-
-body{
-  margin: 0;
-}
-

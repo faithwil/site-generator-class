@@ -1,10 +1,30 @@
-<!--Navigation Bar-->
-<nav class="nav-container">   
-    <a href="https://open.spotify.com/user/music111444?si=683385c9a15e483a" target="_blank">
-        <img class="nav-container-img" src="/assets/spotify-icon.jpeg"/></a>
-        
-    <a href="/discover">Discover</a>   
-    <a href="/culture"">Culture</a> 
-    <a href="/appreciate">Appreciate</a>
-    
-</nav>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<header class="main-nav-container">
+    <a href="/" class="header-logo-link"><h1>Vibe Vault</h1></a>
+
+    <nav class="main-nav">
+        <div class="nav-button-right">
+            <button class="btn-toggle-menu">
+                <svg aria-hidden="true" viewBox="0 0 100 60" width="30" height="30">
+                    <rect width="100" height="10"></rect>
+                    <rect y="30" width="100" height="10"></rect>
+                    <rect y="60" width="100" height="10"></rect>
+                </svg>
+                {% comment %} give this span a class of 'sr-only' to visually hide the text but keep it available for assistive text user {% endcomment %}
+                <span class="">Menu</span>
+
+            </button>
+
+        </div>
+
+        <div class="nav-items-list nav-items-list-hidden">
+            <a href="/discover">Discover</a>
+            <a href="/culture"">Culture</a> 
+         <a href=" /appreciate">Appreciate</a>
+            <a href="https://open.spotify.com/user/music111444?si=683385c9a15e483a" target="_blank">
+            <img class="nav-container-img" src="/assets/spotify-icon.jpg" alt="Playlists on Spotify (opens in new window)"/>
+        </a>
+        </div>
+
+    </nav>
+</header>

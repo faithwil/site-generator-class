@@ -1,1 +1,766 @@
 /* you can put styles in here :) */
+
+body {
+  font-family: "Inter Tight", sans-serif;
+}
+
+.nav-container {
+
+  color: white;
+  background-color: black;
+  width: auto;
+  height: 45px;
+  padding: 35px 45px 0px 0px;
+  border: 1px solid red;
+
+}
+
+.nav-container a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-container a:hover {
+  color: orange;
+}
+
+.nav-container-img {
+  border: 1px solid green;
+  margin: 0;
+  height: 40px;
+  width: 55px;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+
+.sitename-container {
+  display: flex;
+  border: blue 1px solid;
+  justify-content: left;
+}
+
+.main-content-text-discover-page {
+
+  font-size: 25px;
+  padding: 0px 0px 0px 0px;
+  margin: 0;
+  color: white;
+}
+
+.main-content-container-discover-page {
+  background-color: black;
+  border: yellow 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  /* Used to enable scrolling */
+  background: linear-gradient(black 45%, #1d1243 65%, #6846e3 100%);
+}
+
+.new-releases-of-the-week-container {
+  border: transparent 1px solid;
+  max-width: 1300px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  padding: 60px 0px 0px 0px
+}
+
+.song-number-one {
+  border: pink 1px solid;
+  max-width: 1300px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  padding: 175px 0px 0px 0px;
+}
+
+.song-number-one-album {
+  display: flex;
+  border: 1px solid orange;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+  gap: 33px;
+}
+
+.album-image {
+  width: 300px;
+  height: 300px;
+}
+
+.album-descriptions-container {
+  border: grey 1px solid;
+  max-width: 1300px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 31px;
+}
+
+.album-title-area-one {
+  border: yellow 1px solid;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.album-title-area-one h2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 19px;
+  font-family: "Inter Tight";
+  text-align: center;
+  height: 10px;
+  font-style: italic;
+}
+
+.album-title-area-two {
+  border: lightcoral 1px solid;
+  display: flex;
+  flex-direction: column;
+  width: 299px;
+}
+
+.album-title-area-two h2 {
+  color: white;
+  font-size: 19px;
+  font-family: "Inter Tight";
+  text-align: center;
+  height: 10px;
+  font-style: italic;
+}
+
+.album-title-area-three {
+  border: greenyellow 1px solid;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.album-title-area-three h2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 19px;
+  font-family: "Inter Tight";
+  text-align: center;
+  height: 10px;
+  font-style: italic;
+}
+
+.album-title-area-four {
+  border: plum 1px solid;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.album-title-area-four h2 {
+  color: white;
+  font-size: 19px;
+  font-family: "Inter Tight";
+  text-align: center;
+  height: 10px;
+  font-style: italic;
+}
+
+.section-title-artist {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Inter Tight";
+  height: 10px;
+  margin: 0;
+}
+
+.section-title-genre {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Inter Tight";
+  font-weight: 500;
+}
+
+.song-of-the-day-info {
+  border: red 1px solid;
+  max-width: 1300px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 150px 0px 0px 0px;
+  flex-direction: column;
+}
+
+.song-of-the-day-description-left {
+  border: mediumturquoise solid;
+  max-width: 1300px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.song-of-the-day-description-right {
+  border: lemonchiffon 1px solid;
+  max-width: 1300px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.song-of-the-day-image-and-text {
+  border: 1px solid rgb(255, 182, 245);
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.sotd-image {
+  width: 800px;
+}
+
+.sotd-title-container {
+  display: flex;
+  border: solid 1px rosybrown;
+  justify-content: center;
+  margin: 0;
+}
+
+.sotd-title-container-two {
+  display: flex;
+  border: solid 1px yellow;
+  flex-direction: column;
+
+}
+
+.sotd-title-one {
+  color: white;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 70px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.sotd-title-two {
+  color: white;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0;
+  padding: 15px 0px 0px 0px;
+  height: 17px;
+  text-transform: uppercase;
+}
+
+.sotd-title-three {
+  color: white;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0;
+  height: 17px;
+  padding: 0px 0px 0px 5px;
+  text-transform: uppercase;
+}
+
+.sotd-title-four {
+  color: white;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.sotd-container {
+  display: flex;
+  border: 1px solid olive;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.song-of-the-day-description-left {
+  border: 1px solid burlywood;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  justify-content: left;
+  margin: 0;
+}
+
+.sotdl-one {
+  color: white;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  margin: 0;
+  font-size: 125px;
+  height: 100px;
+}
+
+.sotdl-two {
+  color: white;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  margin: 0;
+  font-size: 125px;
+  height: 130px;
+}
+
+.sotdl-three {
+  color: white;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 25px;
+  margin: 0;
+}
+
+.song-of-the-day-description-right {
+  border: 1px solid lawngreen;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  justify-content: left;
+  padding-top: 25px;
+}
+
+.sotdr-one {
+  color: white;
+  font-family: "Inter Tight";
+  font-weight: 300;
+  margin: 0;
+}
+
+.sotdr-two {
+  color: white;
+  font-family: "Inter Tight";
+  font-weight: 300;
+}
+
+.sotdr-three {
+  color: white;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 15px;
+  margin: 0;
+  height: 1px;
+}
+
+.sotdr-four {
+  color: white;
+  font-family: "Inter Tight";
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.section-title-area {
+  border: transparent 1px solid;
+}
+
+.section-title-one {
+  color: white;
+  font-family: "Inter Tight";
+  font-weight: 250;
+  font-style: italic;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  font-size: 110px;
+  margin: 0;
+  width: 100%;
+  height: 100px;
+}
+
+.section-title-two {
+  color: white;
+  font-family: "Inter Tight";
+  font-weight: 250;
+  font-style: italic;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  font-size: 110px;
+  margin: 0;
+  width: 100%;
+  padding: 0px 0px 75px 0px
+}
+
+.section-description {
+  color: white;
+  font-size: 25px;
+  margin: 0;
+  width: 100%;
+  font-family: "Inter Tight";
+  font-weight: 250;
+}
+
+.section-feature-area {
+  border: transparent 1px solid;
+  width: 26%;
+}
+
+.section-feature {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Inter Tight";
+  padding: 20px 0px 0px 40px;
+  font-size: 25px;
+  font-weight: 250;
+  color: #00A651;
+  margin: 0;
+  height: 5px;
+}
+
+.artist-one {
+  color: white;
+  font-family: "Inter Tight";
+  font-size: 25px;
+  font-weight: 250;
+  height: 5px;
+  padding: 0px 0px 0px 40px;
+}
+
+.artist-two {
+  color: white;
+  font-family: "Inter Tight";
+  font-size: 25px;
+  font-weight: 250;
+  height: 5px;
+  padding: 0px 0px 0px 120px;
+}
+
+.artist-three {
+  color: white;
+  font-family: "Inter Tight";
+  font-size: 25px;
+  font-weight: 250;
+  height: 5px;
+  padding: 0px 0px 0px 85px;
+}
+
+.artist-four {
+  color: white;
+  font-family: "Inter Tight";
+  font-size: 25px;
+  font-weight: 250;
+  height: 5px;
+  padding: 0px 0px 0px 40px;
+}
+
+.artist-five {
+  color: white;
+  font-family: "Inter Tight";
+  font-size: 25px;
+  font-weight: 250;
+  height: 5px;
+  padding: 0px 0px 0px 115px;
+}
+
+.artist-six {
+  color: white;
+  font-family: "Inter Tight";
+  font-size: 25px;
+  font-weight: 250;
+  height: 5px;
+  padding: 0px 0px 0px 236px;
+}
+
+.artist-seven {
+  color: white;
+  font-family: "Inter Tight";
+  font-size: 25px;
+  font-weight: 250;
+  height: 5px;
+  padding: 0px 0px 0px 190px;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 20px;
+  border-color: white;
+  width: 100px;
+  height: 30px;
+  font-family: "Inter Tight";
+  font-weight: 250;
+}
+
+
+
+.main-content-container {
+  background-color: black;
+}
+
+.main-content-text {
+
+  font-size: 50px;
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+  margin: 0;
+  color: white;
+}
+
+button:hover {
+  background-color: orange;
+}
+
+.button-playlist {
+  padding: 5px 0px 0px 220px;
+}
+
+.date {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Inter Tight";
+  font-weight: 250;
+  font-size: 68px;
+  margin: 0;
+  padding: 0px 0px 0px 40px;
+}
+
+.main-content-link {
+  text-decoration: none;
+}
+
+.collage-container {
+  display: flex;
+  width: 100%;
+}
+
+.homepage-collage {
+  width: 100%;
+  max-width: 2000px;
+}
+
+.scrolling-text-container-homepage {
+  width: 100%;
+  overflow: hidden;
+  background-color: black;
+}
+
+.scrolling-text-homepage {
+  color: white;
+
+  word-spacing: 140px;
+  font-size: 45px;
+  text-align: center;
+  margin: 0px;
+  position: relative;
+  animation: move-words 15s linear infinite;
+  margin: 0;
+  white-space: nowrap;
+}
+
+@keyframes move-words {
+  0% {
+    left: 100%;
+  }
+
+  100% {
+    left: -100%;
+  }
+}
+
+.playlists {
+  border: red 1px solid;
+  max-width: 1300px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.playlists-heading-container {
+  color: white;
+  font-family: "Inter Tight";
+  border: yellow 1px solid;
+  padding-bottom: 150px;
+  width: 1300px;
+  padding-top: 150px;
+}
+
+.playlists-heading-text {
+  color: white;
+  font-family: "Inter Tight";
+  font-weight: 250;
+  font-style: italic;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  font-size: 110px;
+  margin: 0;
+  width: 100%;
+  height: 200px;
+}
+
+.playlists-heading-text-two {
+  color: white;
+  font-size: 25px;
+  margin: 0;
+  width: 100%;
+  font-family: "Inter Tight";
+  font-weight: 250;
+}
+
+.playlists-heading-text-three {
+  color: white;
+  font-size: 25px;
+  margin: 0;
+  width: 100%;
+  font-family: "Inter Tight";
+  font-weight: 250;
+}
+
+.linked-playlists-container {
+  display: flex;
+  border: 1px solid orange;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+  gap: 33px;
+}
+
+.playlist-image {
+  width: 250px;
+  height: 250px;
+}
+
+.playlists-descriptions-container {
+  border: grey 1px solid;
+  max-width: 1300px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 31px;
+  padding-bottom: 40px;
+}
+
+.playlist-title-area-one {
+  border: yellow 1px solid;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.playlist-title-one {
+  color: white;
+  text-transform: uppercase;
+  font-size: 19px;
+  font-family: "Inter Tight";
+  text-align: center;
+  height: 10px;
+  font-style: italic;
+}
+
+.playlist-title-area-two {
+  border: lightcoral 1px solid;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.playlist-title-two {
+  color: white;
+  font-size: 19px;
+  font-family: "Inter Tight";
+  text-align: center;
+  height: 10px;
+  font-style: italic;
+}
+
+.playlist-title-area-three {
+  border: greenyellow 1px solid;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.playlist-title-three {
+  color: white;
+  text-transform: uppercase;
+  font-size: 19px;
+  font-family: "Inter Tight";
+  text-align: center;
+  height: 10px;
+  font-style: italic;
+}
+
+.playlist-caption {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Inter Tight";
+  height: 10px;
+  margin: 0;
+}
+
+
+.three-image-tabs {
+  display: flex;
+  flex-direction: row;
+  width: 100%
+}
+
+.three-image-tabs img {
+  width: 100%;
+  height: 100%;
+}
+
+.song-of-the-day {
+  color: white;
+
+  font-size: 80px;
+  padding: 10px 0px 0px 0px;
+  text-align: center;
+  margin: 75px 0px 75px 0px
+}
+
+.music-video-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.music-video {
+  width: 80%;
+  height: 30%;
+}
+
+.spotify-bar-container {
+  display: flex;
+  justify-content: center;
+}
+
+.spotify-bar {
+  padding: 75px 0px 0px 0px;
+}
+
+.footer-container {
+  background-color: black;
+  text-align: center;
+  padding: 0px 0px 15px 0px;
+}
+
+.footer-text {
+
+  color: white;
+}
+
+body {
+  margin: 0;
+}
