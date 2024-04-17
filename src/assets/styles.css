@@ -6,7 +6,6 @@ body {
 }
 
 .nav-container {
-
   color: white;
   background-color: black;
   width: auto;
@@ -27,7 +26,6 @@ body {
 }
 
 .nav-container-img {
-  border: 1px solid green;
   margin: 0;
   height: 40px;
   width: 55px;
@@ -48,14 +46,6 @@ nav div {
   justify-content: left;
 }
 
-.main-content-text-discover-page {
-
-  font-size: 25px;
-  padding: 0px 0px 0px 0px;
-  margin: 0;
-  color: white;
-}
-
 .main-content-container-discover-page {
   background-color: black;
   border: yellow 1px solid;
@@ -63,6 +53,9 @@ nav div {
   flex-direction: column;
   align-items: center;
   height: auto;
+  margin-top: 0px;
+
+
   /* Used to enable scrolling */
   background: linear-gradient(black 45%, #1d1243 65%, #6846e3 100%);
 }
@@ -226,6 +219,7 @@ nav div {
 .song-of-the-day-image-and-text {
   border: 1px solid rgb(255, 182, 245);
   display: flex;
+  flex-direction: row;
   width: 100%;
   justify-content: center;
 }
@@ -501,8 +495,6 @@ button {
   font-weight: 250;
 }
 
-
-
 .main-content-container {
   background-color: black;
 }
@@ -710,6 +702,51 @@ button:hover {
   margin: 0;
 }
 
+#main-content-container-appreciate-page {
+  margin-top: 0px;
+  background: linear-gradient(red 45%, rgb(49, 6, 6) 65%, black 100%);
+}
+
+.appreciate-news-container {
+  border: 1px solid yellow;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.news-image {
+  height: 450px;
+  width: 650px;
+  padding: 40px 0px 0px 40px
+}
+
+.news-text {
+  border: 1px solid green;
+  padding-left: 20px;
+  margin-left: 50px;
+}
+
+.news-one {
+  font-size: 70px;
+  margin: 0;
+  padding-top: 23px;
+  height: 60px;
+}
+
+.news-two {
+  font-size: 70px;
+  margin: 0;
+  height: 70px;
+  
+}
+
+.news-three {
+  font-size: 30px;
+}
+
+.news-four {
+  font-size: 15px;
+}
 
 .three-image-tabs {
   display: flex;
@@ -758,6 +795,5 @@ button:hover {
 }
 
 .footer-text {
-
   color: white;
 }
