@@ -717,7 +717,7 @@ button:hover {
 .news-image {
   height: 450px;
   width: 650px;
-  padding: 40px 0px 0px 40px
+  padding: 40px 0px 40px 40px
 }
 
 .news-text {
@@ -746,6 +746,22 @@ button:hover {
 
 .news-four {
   font-size: 15px;
+}
+
+.article-one-container {
+  display: flex;
+  border: 1px solid pink;
+
+}
+
+.article-one-text {
+  border: 1px solid orange;
+
+}
+
+.news-image-placeholder {
+  height: 350px;
+  width: 550px;
 }
 
 .three-image-tabs {
