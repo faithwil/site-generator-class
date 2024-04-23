@@ -54,11 +54,12 @@ nav div {
   align-items: center;
   height: auto;
   margin-top: 0px;
+}
 
 
   /* Used to enable scrolling */
   background: linear-gradient(black 45%, #1d1243 65%, #6846e3 100%);
-}
+
 
 .new-releases-of-the-week-container {
   border: transparent 1px solid;
@@ -239,7 +240,6 @@ nav div {
   display: flex;
   border: solid 1px yellow;
   flex-direction: column;
-
 }
 
 .sotd-title-one {
@@ -831,6 +831,37 @@ border: 1px solid orange;
   width: 550px;
 }
 
+#main-content-container-culture-page {
+  margin-top: 0px;
+  background: linear-gradient(rgb(156, 231, 45) 10%, rgb(175, 211, 123)  65%, rgb(217, 235, 189));
+}
+
+.culture-top-image-container {
+  border: 1px solid yellow;
+}
+
+.culture-top-image{
+  height: 1000px;
+  width: 100%;
+}
+
+.placeholder{
+  height: 200px;
+  width: 200px;
+}
+
+.placeholder-one-container{
+  border: 1px solid red
+
+}
+
+.placeholder-two-container{
+  border: 1px solid red
+}
+
+.placeholder-three-container{
+  border: 1px solid red
+}
 
 .three-image-tabs {
   display: flex;
