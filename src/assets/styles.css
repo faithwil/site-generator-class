@@ -704,7 +704,7 @@ button:hover {
 
 #main-content-container-appreciate-page {
   margin-top: 0px;
-  background: linear-gradient(red 45%, rgb(49, 6, 6) 65%, black 100%);
+  background: linear-gradient(red 10%, rgb(49, 6, 6) 65%, black 100%);
 }
 
 .appreciate-news-container {
@@ -738,7 +738,6 @@ button:hover {
   font-size: 70px;
   margin: 0;
   height: 70px;
-  
 }
 
 .news-three {
@@ -749,12 +748,27 @@ button:hover {
   font-size: 15px;
 }
 
+.news-description-container {
+  border: 1px solid blue;
+  margin-top: 75px;
+  display: flex;
+  justify-content: center;
+}
+
+.news-description {
+color: white;
+font-size: 50px;
+max-width: 1300px;
+border: 1px solid orange;
+
+}
+
 .article-one-container {
   display: flex;
   border: 1px solid pink;
   flex-direction: column;
   align-items: center;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .article-text {
@@ -763,8 +777,8 @@ button:hover {
 }
 
 .news-image-one {
-  height: 350px;
-  width: 550px;
+  height: 450px;
+  width: 450px;
 }
 
 .article-two-container {
@@ -776,8 +790,8 @@ button:hover {
 }
 
 .news-image-two {
-  height: 350px;
-  width: 550px;
+  height: 450px;
+  width: 450px;
 }
 
 .article-three-container {
@@ -787,7 +801,10 @@ button:hover {
   align-items: center;
   margin-top: 50px;
 }
-
+.news-image-three {
+  height: 450px;
+  width: 450px;
+}
 .article-four-container {
   display: flex;
   border: 1px solid greenyellow;
@@ -797,8 +814,8 @@ button:hover {
 }
 
 .news-image-four {
-  height: 350px;
-  width: 550px;
+  height: 450px;
+  width: 450px;
 }
 
 .article-five-container {
@@ -810,12 +827,6 @@ button:hover {
 }
 
 .news-image-five {
-  height: 350px;
-  width: 550px;
-}
-
-
-.news-image-three {
   height: 350px;
   width: 550px;
 }
