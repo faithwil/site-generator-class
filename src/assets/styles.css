@@ -705,7 +705,7 @@ button:hover {
 
 #main-content-container-appreciate-page {
   margin-top: 0px;
-  background: linear-gradient(red 10%, rgb(49, 6, 6) 65%, black 100%);
+  background: linear-gradient(rgb(226, 22, 22) 10%, rgb(49, 6, 6) 65%, black 100%);
 }
 
 .appreciate-news-container {
@@ -761,7 +761,6 @@ color: white;
 font-size: 50px;
 max-width: 1300px;
 border: 1px solid orange;
-
 }
 
 .article-one-container {
@@ -772,14 +771,26 @@ border: 1px solid orange;
   margin-top: 100px;
 }
 
-.article-text {
-  border: 1px solid orange;
-  color: white;
-}
-
 .news-image-one {
   height: 450px;
   width: 450px;
+
+}
+
+.wordmark {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  border: yellow 1px solid;
+}
+
+.article-text {
+  border: 1px solid orange;
+  color: white;
+  font-size: 30px;
+  margin-top: 0px;
+
+  
 }
 
 .article-two-container {
@@ -828,8 +839,8 @@ border: 1px solid orange;
 }
 
 .news-image-five {
-  height: 350px;
-  width: 550px;
+  height: 450px;
+  width: 450px;
 }
 
 #main-content-container-culture-page {
