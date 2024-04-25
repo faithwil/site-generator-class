@@ -782,6 +782,8 @@ border: 1px solid orange;
   font-weight: 700;
   font-size: 20px;
   border: yellow 1px solid;
+  margin-top: -60px;
+  margin-left: 10px;
 }
 
 .article-author{
