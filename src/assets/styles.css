@@ -58,8 +58,6 @@ nav div {
 
   /* Used to enable scrolling */
 
-
-
 .new-releases-of-the-week-container {
   border: transparent 1px solid;
   max-width: 1300px;
@@ -746,85 +744,58 @@ max-width: 1300px;
 border: 1px solid orange;
 }
 
-.article-one-container {
+.column-container {
   display: flex;
   border: 1px solid pink;
   flex-direction: column;
-  align-items: center;
   margin-top: 100px;
 }
 
-.news-image-one {
-  height: 300px;
-  width: 450px;
-}
-
-.wordmark {
-  color: white;
-  font-weight: 700;
-  font-size: 20px;
-  border: yellow 1px solid;
-  margin-top: -60px;
-  margin-left: 10px;
-}
-
-.article-author{
-  color: white;
-  border: 1px solid pink;
-  margin: 0px;
-  font-size: 20px;
-}
-
-.article-text {
-  border: 1px solid orange;
-  color: white;
-  font-size: 30px;
-  margin: 0px;
-}
-
-.article-date{
-  color: white;
-  font-size: 15px;
-  border: 1px solid blue;
-  margin: 0px;
-}
-
-.article-two-container {
+.column-images {
   display: flex;
-  border: 1px solid yellow;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 50px;
+  width: 100%;
+  gap: 125px;
+  justify-content: center;
 }
 
-.news-image-two {
-  height: 300px;
-  width: 450px;
+.appreciate-images {
+  height: 215px;
+  width: 300px;
 }
 
-.article-three-container {
+.column-container-text{
+  border: 1px solid green;
   display: flex;
-  border: 1px solid paleturquoise;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 50px;
-}
-.news-image-three {
-  height: 300px;
-  width: 450px;
-}
-.article-four-container {
-  display: flex;
-  border: 1px solid greenyellow;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 50px;
+  flex-direction: row;
+  gap: 125px;
+  padding-left: 140px;
 }
 
-.news-image-four {
-  height: 300px;
-  width: 450px;
+.column-text{
+  border:1px solid white;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  width: 300px;
 }
+
+.column-title {
+color: white;
+font-size: 24px;
+text-align: center;
+}
+
+.column-author {
+  color: white;
+  text-align: center;
+}
+
+.column-date {
+  color: white;
+  text-align: center;
+}
+
+
 
 #main-content-container-culture-page {
   margin-top: 0px;
