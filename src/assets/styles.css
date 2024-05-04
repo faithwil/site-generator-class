@@ -744,11 +744,28 @@ max-width: 1300px;
 border: 1px solid orange;
 }
 
+.column-labels-container{
+  border: 1px solid grey;
+}
+
+.column-labels{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 125px;
+}
+
+.label{
+  color: white;
+  border: 1px solid gold;
+  width: 297px;
+  margin-bottom: 0px;
+}
+
 .column-container {
   display: flex;
   border: 1px solid pink;
   flex-direction: column;
-  margin-top: 100px;
 }
 
 .column-images {
@@ -776,6 +793,7 @@ border: 1px solid orange;
   display: flex;
   flex-direction:column;
   width: 297px;
+  margin:0;
 }
 
 .column-text{
@@ -784,6 +802,7 @@ border: 1px solid orange;
   flex-direction:row;
   width: 297px;
   justify-content: space-between;
+  margin: 0;
 }
 
 .column-title {
