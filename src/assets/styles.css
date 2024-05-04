@@ -777,7 +777,7 @@ border: 1px solid orange;
 }
 
 .appreciate-images {
-  height: 215px;
+  height: 225px;
   width: 300px;
 }
 
@@ -803,14 +803,14 @@ border: 1px solid orange;
   flex-direction:row;
   width: 297px;
   justify-content: space-between;
-  margin: 0;
+  margin-bottom: 0;
 }
 
 .column-title {
 color: white;
 font-size: 24px;
 text-align: left;
-margin-top: 10px;
+margin: 0px;
 }
 
 .column-author {
