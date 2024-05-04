@@ -767,30 +767,29 @@ border: 1px solid orange;
   border: 1px solid green;
   display: flex;
   flex-direction: row;
-  gap: 125px;
-  padding-left: 140px;
+  gap: 124px;
+  justify-content: center;
 }
 
 .column-header{
   border:1px solid blue;
   display: flex;
   flex-direction:column;
-  justify-content: center;
-  width: 300px;
+  width: 297px;
 }
 
 .column-text{
   border:1px solid white;
   display: flex;
-  flex-direction:column;
-  justify-content: center;
-  width: 300px;
+  flex-direction:row;
+  width: 297px;
+  justify-content: space-between;
 }
 
 .column-title {
 color: white;
 font-size: 24px;
-text-align: center;
+text-align: left;
 margin-top: 10px;
 }
 
@@ -804,7 +803,10 @@ margin-top: 10px;
   text-align: center;
 }
 
+.column-container-description {
+  border: 1px solid red;
 
+}
 
 #main-content-container-culture-page {
   margin-top: 0px;
