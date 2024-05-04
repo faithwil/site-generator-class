@@ -730,14 +730,14 @@ button:hover {
   font-size: 15px;
 }
 
-.news-description-container {
+.page-description-container {
   border: 1px solid blue;
   margin-top: 75px;
   display: flex;
   justify-content: center;
 }
 
-.news-description {
+.page-description {
 color: white;
 font-size: 50px;
 max-width: 1300px;
@@ -746,6 +746,7 @@ border: 1px solid orange;
 
 .column-labels-container{
   border: 1px solid grey;
+  margin-top: 100px;
 }
 
 .column-labels{
