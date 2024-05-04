@@ -771,6 +771,14 @@ border: 1px solid orange;
   padding-left: 140px;
 }
 
+.column-header{
+  border:1px solid blue;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  width: 300px;
+}
+
 .column-text{
   border:1px solid white;
   display: flex;
@@ -783,6 +791,7 @@ border: 1px solid orange;
 color: white;
 font-size: 24px;
 text-align: center;
+margin-top: 10px;
 }
 
 .column-author {
