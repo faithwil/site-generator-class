@@ -746,7 +746,7 @@ border: 1px solid orange;
 
 .column-labels-container{
   border: 1px solid grey;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .column-labels{
@@ -787,12 +787,12 @@ border: 1px solid orange;
   flex-direction: row;
   gap: 124px;
   justify-content: center;
-  height: 180px;
+  height: 190px;
 }
 
 .column-container-description {
   border: 1px solid red;
-  height: 175px;
+  height: 180px;
 }
 .column-header{
   border:1px solid blue;
@@ -813,7 +813,7 @@ border: 1px solid orange;
 
 .column-title {
 color: white;
-font-size: 30px;
+font-size: 25px;
 text-align: left;
 margin: 0px;
 }
