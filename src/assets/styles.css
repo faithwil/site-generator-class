@@ -794,6 +794,18 @@ border: 1px solid orange;
   border: 1px solid red;
   height: 180px;
 }
+
+.column-link{
+  text-decoration-line:none;
+}
+
+.column-link:hover{
+  text-decoration-line:underline;
+  text-decoration-color: white;
+  text-decoration-thickness: 1px;
+}
+
+
 .column-header{
   border:1px solid blue;
   display: flex;
