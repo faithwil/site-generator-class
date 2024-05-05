@@ -1,7 +1,7 @@
 
 :root {
   /* this is the height of the header bar */
-  --header-height: 130px;
+  --header-height: 80px;
   /* this is the background color of the header bar and panel */
   --menu-bg: #000000;
   --menu-highlight-hover: rgb(72, 72, 72);
@@ -37,7 +37,7 @@
   align-items: stretch;
   width: 100%;
   height: var(--header-height);
-  position: static;
+  position: sticky;
   z-index: 10;
   top: 0;
   left: 0;
@@ -53,7 +53,7 @@
   text-decoration: none;
   font-size: 12px;
   width: 160px;
-  padding-top: 35px;
+  padding-top: 10px;
   padding-left: 40px;
 }
 
