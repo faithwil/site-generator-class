@@ -16,7 +16,7 @@ body {
 
 .nav-container a {
   color: white;
-  text-decoration: none;
+  text-decoration: solid;
   font-size: 20px;
 }
 
@@ -38,7 +38,6 @@ nav div {
   gap: 20px;
 }
 
-
 .sitename-container {
   display: flex;
   border: blue 1px solid;
@@ -54,7 +53,6 @@ nav div {
   height: auto;
   margin-top: 0px;
 }
-
 
   /* Used to enable scrolling */
 
@@ -509,7 +507,7 @@ button:hover {
 }
 
 .main-content-link {
-  text-decoration: none;
+  text-decoration: solid;
 }
 
 .collage-container {
@@ -805,7 +803,6 @@ border: 1px solid orange;
   text-decoration-thickness: 1px;
 }
 
-
 .column-header{
   border:1px solid blue;
   display: flex;
@@ -846,12 +843,14 @@ margin: 0px;
   background-color: black;
 }
 
-.culture-top-image-container{
+.culture-container{
   border: 1px solid yellow;
+  display: flex;
+  
 }
 
 .culture-top-image{
-  height: 1000px;
+  height: 550px;
   width: 100%;
 }
 
