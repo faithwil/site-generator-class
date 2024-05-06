@@ -60,8 +60,8 @@ nav div {
 
   /* Used to enable scrolling */
 
-.new-releases-of-the-week-container {
-  border: transparent 1px solid;
+.discover-container {
+  border: rebeccapurple 1px solid;
   max-width: 1300px;
   width: 100%;
   display: flex;
@@ -70,23 +70,14 @@ nav div {
   padding: 60px 0px 0px 0px
 }
 
-.song-number-one {
-  border: pink 1px solid;
-  max-width: 1300px;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: left;
-  padding: 175px 0px 0px 0px;
-}
-
-.song-number-one-album {
+.album-art {
   display: flex;
   border: 1px solid orange;
   justify-content: center;
   margin: 0;
   width: 100%;
   gap: 33px;
+  padding-top: 125px;
 }
 
 .album-image {
@@ -104,65 +95,16 @@ nav div {
   gap: 31px;
 }
 
-.album-title-area-one {
+.album-title-area {
   border: yellow 1px solid;
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-}
-
-.album-title-area-one h2 {
-  color: white;
-  text-transform: uppercase;
-  font-size: 19px;
-  font-family: "Inter Tight";
-  text-align: center;
-  height: 10px;
-  font-style: italic;
-}
-
-.album-title-area-two {
-  border: lightcoral 1px solid;
   display: flex;
   flex-direction: column;
   width: 299px;
 }
 
-.album-title-area-two h2 {
-  color: white;
-  font-size: 19px;
-  font-family: "Inter Tight";
-  text-align: center;
-  height: 10px;
-  font-style: italic;
-}
-
-.album-title-area-three {
-  border: greenyellow 1px solid;
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-}
-
-.album-title-area-three h2 {
+.album-title-area h2 {
   color: white;
   text-transform: uppercase;
-  font-size: 19px;
-  font-family: "Inter Tight";
-  text-align: center;
-  height: 10px;
-  font-style: italic;
-}
-
-.album-title-area-four {
-  border: plum 1px solid;
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-}
-
-.album-title-area-four h2 {
-  color: white;
   font-size: 19px;
   font-family: "Inter Tight";
   text-align: center;
@@ -846,7 +788,6 @@ margin: 0px;
 #main-content-container-culture-page {
   margin-top: 0px;
   background-color: black;
-  height: 1500px;
 }
 
 .culture-container{
