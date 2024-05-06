@@ -15,12 +15,12 @@ details {
   width: auto;
   height: 45px;
   padding: 35px 45px 0px 0px;
-  border: 1px none red;
+  border: 1px solid red;
 }
 
 .nav-container a {
   color: white;
-  text-decoration: none;
+  text-decoration: solid;
   font-size: 20px;
 }
 
@@ -44,13 +44,13 @@ nav div {
 
 .sitename-container {
   display: flex;
-  border: blue 1px none;
+  border: blue 1px solid;
   justify-content: left;
 }
 
 .main-content-container-discover-page {
   background-color: black;
-  border: yellow 1px none;
+  border: yellow 1px solid;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -61,7 +61,7 @@ nav div {
   /* Used to enable scrolling */
 
 .new-releases-of-the-week-container {
-  border: transparent 1px none;
+  border: transparent 1px solid;
   max-width: 1300px;
   width: 100%;
   display: flex;
@@ -71,7 +71,7 @@ nav div {
 }
 
 .song-number-one {
-  border: pink 1px none;
+  border: pink 1px solid;
   max-width: 1300px;
   width: 100%;
   display: flex;
@@ -82,7 +82,7 @@ nav div {
 
 .song-number-one-album {
   display: flex;
-  border: 1px none orange;
+  border: 1px solid orange;
   justify-content: center;
   margin: 0;
   width: 100%;
@@ -95,7 +95,7 @@ nav div {
 }
 
 .album-descriptions-container {
-  border: grey 1px none;
+  border: grey 1px solid;
   max-width: 1300px;
   width: 100%;
   display: flex;
@@ -105,7 +105,7 @@ nav div {
 }
 
 .album-title-area-one {
-  border: yellow 1px none;
+  border: yellow 1px solid;
   display: flex;
   flex-direction: column;
   width: 300px;
@@ -122,7 +122,7 @@ nav div {
 }
 
 .album-title-area-two {
-  border: lightcoral 1px none;
+  border: lightcoral 1px solid;
   display: flex;
   flex-direction: column;
   width: 299px;
@@ -138,7 +138,7 @@ nav div {
 }
 
 .album-title-area-three {
-  border: greenyellow 1px none;
+  border: greenyellow 1px solid;
   display: flex;
   flex-direction: column;
   width: 300px;
@@ -155,7 +155,7 @@ nav div {
 }
 
 .album-title-area-four {
-  border: plum 1px none;
+  border: plum 1px solid;
   display: flex;
   flex-direction: column;
   width: 300px;
@@ -188,7 +188,7 @@ nav div {
 }
 
 .song-of-the-day-info {
-  border: red 1px none;
+  border: red 1px solid;
   max-width: 1300px;
   width: 100%;
   display: flex;
@@ -199,7 +199,7 @@ nav div {
 }
 
 .song-of-the-day-description-left {
-  border: mediumturquoise none;
+  border: mediumturquoise solid;
   max-width: 1300px;
   width: 100%;
   display: flex;
@@ -208,7 +208,7 @@ nav div {
 }
 
 .song-of-the-day-description-right {
-  border: lemonchiffon 1px none;
+  border: lemonchiffon 1px solid;
   max-width: 1300px;
   width: 100%;
   display: flex;
@@ -218,7 +218,7 @@ nav div {
 
 .sotd-title-container {
   display: flex;
-  border: none 1px rosybrown;
+  border: solid 1px rosybrown;
   justify-content: center;
   margin: 0;
   background-image: url("mommaband.jpg");
@@ -230,7 +230,7 @@ nav div {
 
 .sotd-title-container-two {
   display: flex;
-  border: none 1px yellow;
+  border: solid 1px yellow;
   flex-direction: column;
 }
 
@@ -277,13 +277,13 @@ nav div {
 
 .sotd-container {
   display: flex;
-  border: 1px none olive;
+  border: 1px solid olive;
   flex-direction: row;
   justify-content: center;
 }
 
 .song-of-the-day-description-left {
-  border: 1px none burlywood;
+  border: 1px solid burlywood;
   display: flex;
   flex-direction: column;
   width: 400px;
@@ -318,7 +318,7 @@ nav div {
 }
 
 .song-of-the-day-description-right {
-  border: 1px none lawngreen;
+  border: 1px solid lawngreen;
   display: flex;
   flex-direction: column;
   width: 400px;
@@ -356,7 +356,7 @@ nav div {
 }
 
 .section-title-area {
-  border: transparent 1px none;
+  border: transparent 1px solid;
 }
 
 .section-title-one {
@@ -395,7 +395,7 @@ nav div {
 }
 
 .section-feature-area {
-  border: transparent 1px none;
+  border: transparent 1px solid;
   width: 26%;
 }
 
@@ -512,7 +512,7 @@ nav div {
 }
 
 .main-content-link {
-  text-decoration: none;
+  text-decoration: solid;
 }
 
 .collage-container {
@@ -555,7 +555,7 @@ nav div {
 }
 
 .playlists {
-  border: red 1px none;
+  border: red 1px solid;
   max-width: 1300px;
   width: 100%;
   display: flex;
@@ -566,7 +566,7 @@ nav div {
 .playlists-heading-container {
   color: white;
   font-family: "Inter Tight";
-  border: yellow 1px none;
+  border: yellow 1px solid;
   padding-bottom: 150px;
   width: 1300px;
   padding-top: 150px;
@@ -605,7 +605,7 @@ nav div {
 
 .linked-playlists-container {
   display: flex;
-  border: 1px none orange;
+  border: 1px solid orange;
   justify-content: center;
   margin: 0;
   width: 100%;
@@ -618,7 +618,7 @@ nav div {
 }
 
 .playlists-descriptions-container {
-  border: grey 1px none;
+  border: grey 1px solid;
   max-width: 1300px;
   width: 100%;
   display: flex;
@@ -629,7 +629,7 @@ nav div {
 }
 
 .playlist-title-area-one {
-  border: yellow 1px none;
+  border: yellow 1px solid;
   display: flex;
   flex-direction: column;
   width: 250px;
@@ -646,7 +646,7 @@ nav div {
 }
 
 .playlist-title-area-two {
-  border: lightcoral 1px none;
+  border: lightcoral 1px solid;
   display: flex;
   flex-direction: column;
   width: 250px;
@@ -662,7 +662,7 @@ nav div {
 }
 
 .playlist-title-area-three {
-  border: greenyellow 1px none;
+  border: greenyellow 1px solid;
   display: flex;
   flex-direction: column;
   width: 250px;
@@ -693,7 +693,7 @@ nav div {
 }
 
 .appreciate-news-container {
-  border: 1px none yellow;
+  border: 1px solid yellow;
   display: flex;
   flex-direction: row;
   color: white;
@@ -707,7 +707,7 @@ nav div {
 }
 
 .news-text {
-  border: 1px none green;
+  border: 1px solid green;
   padding-left: 20px;
   margin-left: 80px;
 }
@@ -734,7 +734,7 @@ nav div {
 }
 
 .page-description-container {
-  border: 1px none blue;
+  border: 1px solid blue;
   margin-top: 75px;
   display: flex;
   justify-content: center;
@@ -744,11 +744,11 @@ nav div {
 color: white;
 font-size: 50px;
 max-width: 1300px;
-border: 1px none orange;
+border: 1px solid orange;
 }
 
 .column-labels-container{
-  border: 1px none grey;
+  border: 1px solid grey;
   margin-top: 50px;
 }
 
@@ -761,14 +761,14 @@ border: 1px none orange;
 
 .label{
   color: white;
-  border: 1px none gold;
+  border: 1px solid gold;
   width: 297px;
   margin-bottom: 0px;
 }
 
 .column-container {
   display: flex;
-  border: 1px none pink;
+  border: 1px solid pink;
   flex-direction: column;
 }
 
@@ -785,7 +785,7 @@ border: 1px none orange;
 }
 
 .column-container-text{
-  border: 1px none green;
+  border: 1px solid green;
   display: flex;
   flex-direction: row;
   gap: 124px;
@@ -794,12 +794,12 @@ border: 1px none orange;
 }
 
 .column-container-description {
-  border: 1px none red;
+  border: 1px solid red;
   height: 180px;
 }
 
 .column-link{
-  text-decoration-line:none;
+  text-decoration-line:solid;
 }
 
 .column-link:hover{
@@ -809,7 +809,7 @@ border: 1px none orange;
 }
 
 .column-header{
-  border:1px none blue;
+  border:1px solid blue;
   display: flex;
   flex-direction:column;
   width: 297px;
@@ -817,7 +817,7 @@ border: 1px none orange;
 }
 
 .column-text{
-  border:1px none white;
+  border:1px solid white;
   display: flex;
   flex-direction:row;
   width: 297px;
@@ -850,7 +850,7 @@ margin: 0px;
 }
 
 .culture-container{
-  border: 1px none yellow;
+  border: 1px solid yellow;
   display: flex;
 }
 
@@ -859,38 +859,19 @@ margin: 0px;
   width: 100%;
 }
 
-.collapsible{
-  border: 1px none blue;
-  display: flex;
-  flex-direction: column;
-}
-
 summary{
   color: black;
   background-color: yellow;
-  font-size: 65px;
+  font-size: 55px;
   display: block;
   cursor: pointer;
   padding: 10px;
   width: 100%;
 }
 
-.collapsible div{
+details div{
+  font-size: 20px;
   color: white;
-  font-size: 30px;
-  height: 0px;
-  overflow: hidden;
-  opacity: 0;
-}
-
-input{
-  display:none;
-}
-
-input:checked ~ div {
-  opacity:1;
-  height: auto;
-  padding: 10px;
 }
 
 
