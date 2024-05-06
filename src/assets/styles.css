@@ -470,7 +470,7 @@ nav div {
   padding: 0px 0px 0px 190px;
 }
 
-button {
+.discover-button {
   background-color: transparent;
   color: white;
   font-size: 20px;
@@ -484,12 +484,13 @@ button {
   font-weight: 250;
 }
 
-.main-content-container {
-  background-color: black;
+.discover-button:hover {
+  background-color: orange;
 }
 
-button:hover {
-  background-color: orange;
+
+.main-content-container {
+  background-color: black;
 }
 
 .button-playlist {
@@ -841,12 +842,12 @@ margin: 0px;
 #main-content-container-culture-page {
   margin-top: 0px;
   background-color: black;
+  height: 1500px;
 }
 
 .culture-container{
   border: 1px solid yellow;
   display: flex;
-  
 }
 
 .culture-top-image{
@@ -854,23 +855,40 @@ margin: 0px;
   width: 100%;
 }
 
-.placeholder{
-  height: 200px;
-  width: 200px;
+.collapsible{
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
 }
 
-.placeholder-one-container{
-  border: 1px solid red
-
+label{
+  color: black;
+  background-color: yellow;
+  font-size: 65px;
+  display: block;
+  cursor: pointer;
+  padding: 10px;
+  width: 1415px;
 }
 
-.placeholder-two-container{
-  border: 1px solid red
+.collapsible div{
+  color: white;
+  font-size: 30px;
+  height: 0px;
+  overflow: hidden;
+  opacity: 0;
 }
 
-.placeholder-three-container{
-  border: 1px solid red
+input{
+  display:none;
 }
+
+input:checked ~ div {
+  opacity:1;
+  height: auto;
+  padding: 10px;
+}
+
 
 .three-image-tabs {
   display: flex;
