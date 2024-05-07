@@ -70,238 +70,7 @@ nav div {
   padding: 60px 0px 0px 0px
 }
 
-.album-art {
-  display: flex;
-  border: 1px solid orange;
-  justify-content: center;
-  margin: 0;
-  width: 100%;
-  gap: 33px;
-  padding-top: 125px;
-}
-
-.album-image {
-  width: 300px;
-  height: 300px;
-}
-
-.album-descriptions-container {
-  border: grey 1px solid;
-  max-width: 1300px;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: left;
-  gap: 31px;
-}
-
-.album-title-area {
-  border: yellow 1px solid;
-  display: flex;
-  flex-direction: column;
-  width: 299px;
-}
-
-.album-title-area h2 {
-  color: white;
-  text-transform: uppercase;
-  font-size: 19px;
-  font-family: "Inter Tight";
-  text-align: center;
-  height: 10px;
-  font-style: italic;
-}
-
-.section-title-artist {
-  color: white;
-  text-align: center;
-  font-size: 15px;
-  font-family: "Inter Tight";
-  height: 10px;
-  margin: 0;
-}
-
-.section-title-genre {
-  color: white;
-  text-align: center;
-  font-size: 12px;
-  font-family: "Inter Tight";
-  font-weight: 500;
-}
-
-.song-of-the-day-info {
-  border: red 1px solid;
-  max-width: 1300px;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 150px 0px 0px 0px;
-  flex-direction: column;
-}
-
-.song-of-the-day-description-left {
-  border: mediumturquoise solid;
-  max-width: 1300px;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: left;
-}
-
-.song-of-the-day-description-right {
-  border: lemonchiffon 1px solid;
-  max-width: 1300px;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: left;
-}
-
-.sotd-title-container {
-  display: flex;
-  border: solid 1px rosybrown;
-  justify-content: center;
-  margin: 0;
-  background-image: url("mommaband.jpg");
-  height: 600px;
-  width: 1100px;
-  align-items: center;
-  margin-left: 100px;
-}
-
-.sotd-title-container-two {
-  display: flex;
-  border: solid 1px yellow;
-  flex-direction: column;
-}
-
-.sotd-title-one {
-  color: white;
-  font-family: "Inter Tight";
-  font-weight: 500;
-  font-size: 70px;
-  margin: 0;
-  text-transform: uppercase;
-
-}
-
-.sotd-title-two {
-  color: white;
-  font-family: "Inter Tight";
-  font-weight: 500;
-  font-size: 20px;
-  margin: 0;
-  padding: 15px 0px 0px 0px;
-  height: 17px;
-  text-transform: uppercase;
-}
-
-.sotd-title-three {
-  color: white;
-  font-family: "Inter Tight";
-  font-weight: 500;
-  font-size: 20px;
-  margin: 0;
-  height: 17px;
-  padding: 0px 0px 0px 5px;
-  text-transform: uppercase;
-}
-
-.sotd-title-four {
-  color: white;
-  font-family: "Inter Tight";
-  font-weight: 500;
-  font-size: 20px;
-  margin: 0;
-  text-transform: uppercase;
-}
-
-.sotd-container {
-  display: flex;
-  border: 1px solid olive;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.song-of-the-day-description-left {
-  border: 1px solid burlywood;
-  display: flex;
-  flex-direction: column;
-  width: 400px;
-  justify-content: left;
-  margin: 0;
-}
-
-.sotdl-one {
-  color: white;
-  font-family: "Inter Tight";
-  font-weight: 500;
-  margin: 0;
-  font-size: 125px;
-  height: 100px;
-}
-
-.sotdl-two {
-  color: white;
-  font-family: "Inter Tight";
-  font-weight: 500;
-  margin: 0;
-  font-size: 125px;
-  height: 130px;
-}
-
-.sotdl-three {
-  color: white;
-  font-family: "Inter Tight";
-  font-weight: 500;
-  font-size: 25px;
-  margin: 0;
-}
-
-.song-of-the-day-description-right {
-  border: 1px solid lawngreen;
-  display: flex;
-  flex-direction: column;
-  width: 400px;
-  justify-content: left;
-  padding-top: 25px;
-}
-
-.sotdr-one {
-  color: white;
-  font-family: "Inter Tight";
-  font-weight: 300;
-  margin: 0;
-}
-
-.sotdr-two {
-  color: white;
-  font-family: "Inter Tight";
-  font-weight: 300;
-}
-
-.sotdr-three {
-  color: white;
-  font-family: "Inter Tight";
-  font-weight: 500;
-  font-size: 15px;
-  margin: 0;
-  height: 1px;
-}
-
-.sotdr-four {
-  color: white;
-  font-family: "Inter Tight";
-  font-size: 20px;
-  font-weight: 300;
-}
-
-.section-title-area {
-  border: transparent 1px solid;
-}
-
-.section-title-one {
+.nrotw-title-one {
   color: white;
   font-family: "Inter Tight";
   font-weight: 250;
@@ -314,7 +83,7 @@ nav div {
   height: 100px;
 }
 
-.section-title-two {
+.nrotw-title-two {
   color: white;
   font-family: "Inter Tight";
   font-weight: 250;
@@ -327,7 +96,7 @@ nav div {
   padding: 0px 0px 75px 0px
 }
 
-.section-description {
+.nrotw-description {
   color: white;
   font-size: 25px;
   margin: 0;
@@ -336,12 +105,12 @@ nav div {
   font-weight: 250;
 }
 
-.section-feature-area {
-  border: transparent 1px solid;
+.nrotw-feature-area {
+  border: none 1px solid;
   width: 26%;
 }
 
-.section-feature {
+.nrotw-feature {
   color: white;
   text-transform: uppercase;
   font-family: "Inter Tight";
@@ -451,6 +220,219 @@ nav div {
   font-size: 68px;
   margin: 0;
   padding: 0px 0px 0px 40px;
+}
+
+.album-art {
+  display: flex;
+  border: 1px solid orange;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+  gap: 33px;
+  padding-top: 125px;
+}
+
+.album-image {
+  width: 300px;
+  height: 300px;
+}
+
+.album-descriptions-container {
+  border: grey 1px solid;
+  max-width: 1300px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 32px;
+}
+
+.album-title-area {
+  border: yellow 1px solid;
+  display: flex;
+  flex-direction: column;
+  width: 299px;
+}
+
+.album-title-area h2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 19px;
+  font-family: "Inter Tight";
+  text-align: center;
+  height: 10px;
+  font-style: italic;
+}
+
+.album-title-artist {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Inter Tight";
+  height: 10px;
+  margin: 0;
+}
+
+.album-title-genre {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Inter Tight";
+  font-weight: 500;
+}
+
+.sotd-info {
+  border: red 1px solid;
+  max-width: 1300px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 150px 0px 0px 0px;
+  flex-direction: column;
+}
+
+.sotd-logo-container-left {
+  display: flex;
+  border: solid 1px rosybrown;
+  justify-content: center;
+  margin: 0;
+  background-image: url("mommaband.jpg");
+  height: 600px;
+  width: 1100px;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.sotd-logo-container-right {
+  display: flex;
+  border: solid 1px yellow;
+  flex-direction: column;
+}
+
+.sotd-part-one {
+  color: white;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 70px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.sotd-part-two {
+  color: white;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  height: 17px;
+  text-transform: uppercase;
+}
+
+.sotd-part-three {
+  color: white;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0;
+  height: 17px;
+  padding: 0px 0px 0px 5px;
+  text-transform: uppercase;
+}
+
+.sotd-part-four {
+  color: white;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.sotd-description-container {
+  display: flex;
+  border: 1px solid olive;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.song-of-the-day-description-right {
+  border: lemonchiffon 1px solid;
+  max-width: 1300px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.song-of-the-day-description-left {
+  border: 1px solid burlywood;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  justify-content: left;
+  margin: 0;
+}
+
+.sotdl-one {
+  color: white;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  margin: 0;
+  font-size: 125px;
+  height: 100px;
+}
+
+.sotdl-two {
+  color: white;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  margin: 0;
+  font-size: 125px;
+  height: 130px;
+}
+
+.sotdl-three {
+  color: white;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 25px;
+  margin: 0;
+}
+
+.song-of-the-day-description-right {
+  border: 1px solid lawngreen;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  justify-content: left;
+  padding-top: 25px;
+}
+
+.sotdr {
+  color: white;
+  font-family: "Inter Tight";
+  font-weight: 300;
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
+
+
+.sotdr-three {
+  color: white;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 15px;
+  margin: 0;
+  height: 1px;
+}
+
+.sotdr-four {
+  color: white;
+  font-family: "Inter Tight";
+  font-size: 20px;
+  font-weight: 300;
 }
 
 .main-content-link {
