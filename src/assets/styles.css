@@ -957,6 +957,23 @@ section div{
   display: none;
 }
 
+.discover-setlist {
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 20px;
+  border-color: white;
+  width: 100px;
+  height: 30px;
+  font-family: "Inter Tight";
+  font-weight: 250;
+}
+
+.discover-setlist:hover {
+  background-color: orange;
+}
 
 .song-of-the-day {
   color: white;
