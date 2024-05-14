@@ -66,7 +66,7 @@ nav div {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: center;
   padding: 60px 0px 0px 0px
 }
 
@@ -77,7 +77,7 @@ nav div {
   font-style: italic;
   letter-spacing: -1px;
   text-transform: uppercase;
-  font-size: 110px;
+  font-size: 100px;
   margin: 0;
   width: 100%;
   height: 100px;
@@ -90,7 +90,7 @@ nav div {
   font-style: italic;
   letter-spacing: -1px;
   text-transform: uppercase;
-  font-size: 110px;
+  font-size: 100px;
   margin: 0;
   width: 100%;
   padding: 0px 0px 75px 0px
@@ -106,7 +106,7 @@ nav div {
 }
 
 .nrotw-feature-area {
-  border: none 1px solid;
+  border: solid 1px solid;
   width: 26%;
 }
 
@@ -137,7 +137,7 @@ nav div {
   font-size: 25px;
   font-weight: 250;
   height: 5px;
-  padding: 0px 0px 0px 120px;
+  padding: 0px 0px 0px 40px;
 }
 
 .artist-three {
@@ -146,7 +146,7 @@ nav div {
   font-size: 25px;
   font-weight: 250;
   height: 5px;
-  padding: 0px 0px 0px 85px;
+  padding: 0px 0px 0px 40px;
 }
 
 .artist-four {
@@ -164,7 +164,7 @@ nav div {
   font-size: 25px;
   font-weight: 250;
   height: 5px;
-  padding: 0px 0px 0px 115px;
+  padding: 0px 0px 0px 40px;
 }
 
 .artist-six {
@@ -173,16 +173,7 @@ nav div {
   font-size: 25px;
   font-weight: 250;
   height: 5px;
-  padding: 0px 0px 0px 236px;
-}
-
-.artist-seven {
-  color: white;
-  font-family: "Inter Tight";
-  font-size: 25px;
-  font-weight: 250;
-  height: 5px;
-  padding: 0px 0px 0px 190px;
+  padding: 0px 0px 0px 40px;
 }
 
 .discover-button {
@@ -219,7 +210,7 @@ nav div {
   font-weight: 250;
   font-size: 68px;
   margin: 0;
-  padding: 0px 0px 0px 40px;
+  padding: 0px 0px 0px 10px;
 }
 
 .album-art {
