@@ -67,7 +67,7 @@ nav div {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 60px 0px 0px 0px
+  padding: 60px 0px 20px 0px
 }
 
 .nrotw-title-one {
@@ -93,7 +93,7 @@ nav div {
   font-size: 100px;
   margin: 0;
   width: 100%;
-  padding: 0px 0px 75px 0px
+  padding: 0px 0px 50px 0px
 }
 
 .nrotw-description {
@@ -105,8 +105,12 @@ nav div {
   font-weight: 250;
 }
 
+.nrotw-area{
+  border: solid 1px red;
+}
+
 .nrotw-feature-area {
-  border: solid 1px solid;
+  border: solid 1px blue;
   width: 26%;
 }
 
@@ -137,7 +141,7 @@ nav div {
   font-size: 25px;
   font-weight: 250;
   height: 5px;
-  padding: 0px 0px 0px 40px;
+  padding: 0px 0px 0px 80px;
 }
 
 .artist-three {
@@ -146,7 +150,7 @@ nav div {
   font-size: 25px;
   font-weight: 250;
   height: 5px;
-  padding: 0px 0px 0px 40px;
+  padding: 0px 0px 0px 60px;
 }
 
 .artist-four {
@@ -155,7 +159,7 @@ nav div {
   font-size: 25px;
   font-weight: 250;
   height: 5px;
-  padding: 0px 0px 0px 40px;
+  padding: 0px 0px 0px 160px;
 }
 
 .artist-five {
@@ -164,7 +168,7 @@ nav div {
   font-size: 25px;
   font-weight: 250;
   height: 5px;
-  padding: 0px 0px 0px 40px;
+  padding: 0px 0px 0px 70px;
 }
 
 .artist-six {
@@ -173,7 +177,7 @@ nav div {
   font-size: 25px;
   font-weight: 250;
   height: 5px;
-  padding: 0px 0px 0px 40px;
+  padding: 0px 0px 0px 140px;
 }
 
 .discover-button {
@@ -194,13 +198,12 @@ nav div {
   background-color: orange;
 }
 
-
 .main-content-container {
   background-color: black;
 }
 
 .button-playlist {
-  padding: 5px 0px 0px 220px;
+  padding: 5px 0px 0px 190px;
 }
 
 .date {
@@ -208,9 +211,38 @@ nav div {
   text-transform: uppercase;
   font-family: "Inter Tight";
   font-weight: 250;
-  font-size: 68px;
+  font-size: 60px;
   margin: 0;
-  padding: 0px 0px 0px 10px;
+  padding-top: 0px;
+  padding-left: 40px;
+}
+
+.scrolling-text-container-discover {
+  width: 100%;
+  overflow: hidden;
+  background-color: #0da651;
+}
+
+.scrolling-text-discover {
+  color:white;
+  word-spacing: 140px;
+  font-size: 45px;
+  text-align: center;
+  margin: 0px;
+  position: relative;
+  animation: move-words 15s linear infinite;
+  margin: 0;
+  white-space: nowrap;
+}
+
+@keyframes move-words {
+  0% {
+    left: 100%;
+  }
+
+  100% {
+    left: -100%;
+  }
 }
 
 .album-art {
@@ -220,7 +252,7 @@ nav div {
   margin: 0;
   width: 100%;
   gap: 33px;
-  padding-top: 125px;
+  padding-top: 100px;
 }
 
 .album-image {
@@ -288,7 +320,8 @@ nav div {
   border: solid 1px rosybrown;
   justify-content: center;
   margin: 0;
-  background-image: url("mommaband.jpg");
+  background-image: url("Kevin.jpg");
+  background-size: 1100px 700px;
   height: 600px;
   width: 1100px;
   align-items: center;
@@ -333,7 +366,7 @@ nav div {
 }
 
 .sotd-part-four {
-  color: white;
+  color:white;
   font-family: "Inter Tight";
   font-weight: 500;
   font-size: 20px;
