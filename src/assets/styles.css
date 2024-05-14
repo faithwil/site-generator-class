@@ -48,6 +48,68 @@ nav div {
   justify-content: left;
 }
 
+.main-content-link {
+  text-decoration: solid;
+}
+
+.collage-container {
+  display: flex;
+  width: 100%;
+}
+
+.homepage-collage {
+  width: 100%;
+  max-width: 2000px;
+  height: 540px;
+}
+
+.scrolling-text-container-homepage {
+  width: 100%;
+  overflow: hidden;
+  background-color: black;
+}
+
+.scrolling-text-homepage {
+  color: white;
+
+  word-spacing: 140px;
+  font-size: 45px;
+  text-align: center;
+  margin: 0px;
+  position: relative;
+  animation: move-words 15s linear infinite;
+  margin: 0;
+  white-space: nowrap;
+}
+
+@keyframes move-words {
+  0% {
+    left: 100%;
+  }
+
+  100% {
+    left: -100%;
+  }
+}
+
+.three-image-tabs {
+  display: flex;
+  flex-direction: row;
+  width: 100%
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.three-image-tabs img {
+  width: 100%;
+  height: 100%;
+}
+
+.three-image-tabs img:hover{
+    transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    background-image: none;
+  }
+  
 .main-content-container-discover-page {
   background-color: black;
   border: yellow 1px solid;
@@ -221,6 +283,7 @@ nav div {
   width: 100%;
   overflow: hidden;
   background-color: #0da651;
+  margin-top: 125px;
 }
 
 .scrolling-text-discover {
@@ -450,49 +513,6 @@ nav div {
   font-family: "Inter Tight";
   font-size: 20px;
   font-weight: 300;
-}
-
-.main-content-link {
-  text-decoration: solid;
-}
-
-.collage-container {
-  display: flex;
-  width: 100%;
-}
-
-.homepage-collage {
-  width: 100%;
-  max-width: 2000px;
-}
-
-.scrolling-text-container-homepage {
-  width: 100%;
-  overflow: hidden;
-  background-color: black;
-}
-
-.scrolling-text-homepage {
-  color: white;
-
-  word-spacing: 140px;
-  font-size: 45px;
-  text-align: center;
-  margin: 0px;
-  position: relative;
-  animation: move-words 15s linear infinite;
-  margin: 0;
-  white-space: nowrap;
-}
-
-@keyframes move-words {
-  0% {
-    left: 100%;
-  }
-
-  100% {
-    left: -100%;
-  }
 }
 
 .playlists {
@@ -796,7 +816,6 @@ margin: 0px;
   text-align: center;
 }
 
-
 #main-content-container-culture-page {
   margin-top: 0px;
   background-color: black;
@@ -808,8 +827,37 @@ margin: 0px;
 }
 
 .culture-top-image{
-  height: 650px;
+  height: 530px;
   width: 100%;
+}
+
+.scrolling-text-container-culture {
+  width: 100%;
+  overflow: hidden;
+  background-color: #E984B5;
+  margin-bottom: 60px;
+}
+
+.scrolling-text-culture {
+  color: white;
+  word-spacing: 50px;
+  font-size: 45px;
+  text-align: center;
+  margin: 0px;
+  position: relative;
+  animation: move-words 15s linear infinite;
+  margin: 0;
+  white-space: nowrap;
+}
+
+@keyframes move-words {
+  0% {
+    left: 100%;
+  }
+
+  100% {
+    left: -100%;
+  }
 }
 
 summary{
@@ -822,21 +870,33 @@ summary{
   width: 100%;
 }
 
+.menu1{
+background-color: #e984b5;
+}
+
+.menu2{
+background-color: #ec70a9;
+}
+
+.menu3{
+  background-color: #f05c9d;
+}
+
+.menu4{
+  background-color:#f34991;
+  }
+  
+  .menu5{
+  background-color: #f63586;
+  }
+  
+  .menu6{
+    background-color: #fa217a;
+  }
+
 details div{
   font-size: 20px;
   color: white;
-}
-
-
-.three-image-tabs {
-  display: flex;
-  flex-direction: row;
-  width: 100%
-}
-
-.three-image-tabs img {
-  width: 100%;
-  height: 100%;
 }
 
 .song-of-the-day {
