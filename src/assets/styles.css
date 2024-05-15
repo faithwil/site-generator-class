@@ -931,6 +931,7 @@ hr {
   display: flex;
   flex-direction: row;
   border: 1px solid red;
+  justify-content: space-between;
 }
 
 .profile-image img{
@@ -945,8 +946,8 @@ hr {
   display: flex;
   flex-direction: column;
   width: 50%;
-  margin-left: 100px;
   justify-content: center;
+  margin-left: 60px;
 }
 
 .profile-list h1{
@@ -968,8 +969,6 @@ hr {
 .profile-section{
   border: 1px solid blue;
 }
-
-
 
 .song-of-the-day {
   color: white;
