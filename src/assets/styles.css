@@ -543,6 +543,14 @@ nav div {
   height: 250px;
 }
 
+.linked-playlists-container a{
+  filter: none;
+}
+
+.linked-playlists-container a:hover{
+  filter: sepia(100%);
+}
+
 .playlists-descriptions-container {
   border: grey 1px solid;
   max-width: 1300px;
