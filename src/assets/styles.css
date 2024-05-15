@@ -927,7 +927,23 @@ hr {
   font-size: 40px;
 }
 
+.profile-container{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid red;
 }
+
+.profile-image{
+  height: 600px;
+  width: 600px;
+  border: 1px solid purple;
+}
+
+.profile-list{
+  color: white;
+  border: 1px solid white;
+}
+
 .song-of-the-day {
   color: white;
   font-size: 80px;
