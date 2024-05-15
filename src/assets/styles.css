@@ -279,34 +279,6 @@ nav div {
   padding-left: 40px;
 }
 
-.scrolling-text-container-discover {
-  width: 100%;
-  overflow: hidden;
-  background-color: #0da651;
-  margin-top: 125px;
-}
-
-.scrolling-text-discover {
-  color:white;
-  word-spacing: 140px;
-  font-size: 45px;
-  text-align: center;
-  margin: 0px;
-  position: relative;
-  animation: move-words 15s linear infinite;
-  margin: 0;
-  white-space: nowrap;
-}
-
-@keyframes move-words {
-  0% {
-    left: 100%;
-  }
-
-  100% {
-    left: -100%;
-  }
-}
 
 .album-art {
   display: flex;
@@ -478,7 +450,7 @@ nav div {
   font-weight: 500;
   margin: 0;
   font-size: 100px;
-  height: 220px;
+  height: 200px;
 }
 
 .sotdl-three {
@@ -497,6 +469,7 @@ nav div {
   margin-top: 0px;
   text-justify: inter-word;
   text-align: left;
+  font-size: 15px;
 }
 
 .sotdr-three {
@@ -693,34 +666,6 @@ nav div {
   font-size: 15px;
 }
 
-.scrolling-text-container-appreciate {
-  width: 100%;
-  overflow: hidden;
-  background-color: orange;
-}
-
-.scrolling-text-appreciate {
-  color: white;
-  word-spacing: 50px;
-  font-size: 45px;
-  text-align: center;
-  margin: 0px;
-  position: relative;
-  animation: move-words 15s linear infinite;
-  margin: 0;
-  white-space: nowrap;
-}
-
-@keyframes move-words {
-  0% {
-    left: 100%;
-  }
-
-  100% {
-    left: -100%;
-  }
-}
-
 .column-labels-container{
   border: 1px solid grey;
   margin-top: 50px;
@@ -829,35 +774,6 @@ margin: 0px;
 .culture-top-image{
   height: 530px;
   width: 100%;
-}
-
-.scrolling-text-container-culture {
-  width: 100%;
-  overflow: hidden;
-  background-color: #E984B5;
-  margin-bottom: 60px;
-}
-
-.scrolling-text-culture {
-  color: white;
-  word-spacing: 50px;
-  font-size: 45px;
-  text-align: center;
-  margin: 0px;
-  position: relative;
-  animation: move-words 15s linear infinite;
-  margin: 0;
-  white-space: nowrap;
-}
-
-@keyframes move-words {
-  0% {
-    left: 100%;
-  }
-
-  100% {
-    left: -100%;
-  }
 }
 
 summary{
@@ -998,7 +914,19 @@ color: orange;
 
 hr {
   margin: 0px;
+}
   
+.advice-container {
+  border: 1px solid orange;
+  display: flex;
+  justify-content: center;
+}
+
+.advice-description{
+  color: white;
+  font-size: 40px;
+}
+
 }
 .song-of-the-day {
   color: white;
