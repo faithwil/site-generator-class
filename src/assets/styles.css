@@ -957,24 +957,43 @@ section div{
   display: none;
 }
 
-.discover-setlist {
-  background-color: transparent;
+div h4{
+  margin: 0;
+  color: lightskyblue;
+}
+
+.orange h4{
+color: orange;
+}
+
+.pink h4{
+  color: pink;
+  }
+  
+  .green h4{
+    color: #0da651;;
+    }
+
+.info{
+  margin-bottom: 14px;
+  margin-top: 0px;
+  font-size: 15px;
+}
+
+.setlist{
+  text-decoration: none;
   color: white;
-  font-size: 20px;
-  cursor: pointer;
-  overflow: hidden;
-  border-radius: 20px;
-  border-color: white;
-  width: 100px;
-  height: 30px;
-  font-family: "Inter Tight";
-  font-weight: 250;
+  font-size: 15px;
 }
 
-.discover-setlist:hover {
-  background-color: orange;
+.setlist:hover {
+  color: orange;
 }
 
+hr {
+  margin: 0px;
+  
+}
 .song-of-the-day {
   color: white;
   font-size: 80px;
