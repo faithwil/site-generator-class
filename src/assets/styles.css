@@ -893,7 +893,7 @@ color: orange;
   }
   
   .green h4{
-    color: #0da651;;
+    color: #0da651;
     }
 
 .info{
@@ -941,20 +941,22 @@ hr {
 }
 
 .profile-list{
-  color: white;
   border: 1px solid white;
   display: flex;
   flex-direction: column;
-  width: 58%;
+  width: 50%;
+  margin-left: 100px;
+  justify-content: center;
 }
 
 .profile-list h1{
   font-size: 80px;
   margin: 0;
+  margin-bottom: 5px;
 }
 
 .profile-advice{
-  font-size: 30px;
+  font-size: 40px;
   margin: 0;
 }
 
@@ -966,6 +968,8 @@ hr {
 .profile-section{
   border: 1px solid blue;
 }
+
+
 
 .song-of-the-day {
   color: white;
