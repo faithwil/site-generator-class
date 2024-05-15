@@ -933,15 +933,18 @@ hr {
   border: 1px solid red;
 }
 
-.profile-image{
+.profile-image img{
   height: 600px;
   width: 600px;
   border: 1px solid purple;
+  display:flex;
 }
 
 .profile-list{
   color: white;
   border: 1px solid white;
+  display: flex;
+  width: 50%;
 }
 
 .song-of-the-day {
