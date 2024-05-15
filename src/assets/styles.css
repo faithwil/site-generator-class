@@ -869,6 +869,11 @@ summary{
   width: 99%;
 }
 
+summary:hover {
+  color: pink;
+  background-color: black
+}
+
 .menu1{
 background-color: #e984b5;
 }
@@ -910,6 +915,7 @@ section div{
   border: 1px solid orange;
   display: flex;
   flex-direction: row;
+  margin-bottom: 10px;
 }
 
 .thumbnails {
