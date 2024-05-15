@@ -944,7 +944,27 @@ hr {
   color: white;
   border: 1px solid white;
   display: flex;
-  width: 50%;
+  flex-direction: column;
+  width: 58%;
+}
+
+.profile-list h1{
+  font-size: 80px;
+  margin: 0;
+}
+
+.profile-advice{
+  font-size: 30px;
+  margin: 0;
+}
+
+.profile-advice-sub{
+  font-size: 20px;
+  margin: 0;
+}
+
+.profile-section{
+  border: 1px solid blue;
 }
 
 .song-of-the-day {
