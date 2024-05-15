@@ -962,9 +962,9 @@ hr {
 }
 
 .profile-list h1{
-  font-size: 50px;
+  font-size: 40px;
   margin: 0;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
 }
 
 .profile-advice {
@@ -1021,6 +1021,8 @@ flex-direction: column;
   margin: 0;
   font-size: 30px;
   margin-bottom: 20px;
+  font-family: "Inter Tight";
+  font-weight: 500;
   }
 
 .journal-right {
@@ -1035,6 +1037,8 @@ flex-direction: column;
 margin: 0;
 font-size: 50px;
 margin-bottom: 10px;
+font-family: "Inter Tight";
+font-weight: 500;
   }
 
 .journal-right p {
@@ -1042,6 +1046,8 @@ margin-bottom: 10px;
   margin: 0;
   font-size: 18px;
   margin-bottom: 10px;
+  font-family: "Inter Tight";
+  font-weight: 300;
   }
 
 .form-statement{
@@ -1050,6 +1056,8 @@ font-size:30px;
 padding-top: 60px;
 display: flex;
 justify-content: center;
+font-family: "Inter Tight";
+font-weight: 700;
 }
 
 .song-of-the-day {
