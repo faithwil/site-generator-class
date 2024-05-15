@@ -71,7 +71,6 @@ nav div {
 
 .scrolling-text-homepage {
   color: white;
-
   word-spacing: 140px;
   font-size: 45px;
   text-align: center;
@@ -95,7 +94,7 @@ nav div {
 .three-image-tabs {
   display: flex;
   flex-direction: row;
-  width: 100%
+  width: 100%;
   transition: transform .2s; 
   margin: 0 auto;
 }
@@ -105,7 +104,7 @@ nav div {
   height: 100%;
 }
 
-.three-image-tabs img:hover{
+.three-image-tabs img:hover {
     transform: scale(1.15); 
     background-image: none;
   }
@@ -1027,6 +1026,14 @@ margin-bottom: 10px;
   font-size: 18px;
   margin-bottom: 10px;
   }
+
+.form-statement{
+color: white;
+font-size:30px;
+padding-top: 60px;
+display: flex;
+justify-content: center;
+}
 
 .song-of-the-day {
   color: white;

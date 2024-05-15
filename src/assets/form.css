@@ -60,8 +60,8 @@ html{    background:url(http://thekitemap.com/images/feedback-img.jpg) no-repeat
 }
 
 .focused{
-	color:#e984b5
-	border:#e984b5 solid 3px;
+	color:#e984b5;
+	border: #e984b5 solid 3px;
 }
 
 /* Icons ---------------------------------- */
