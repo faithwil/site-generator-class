@@ -943,7 +943,7 @@ section div{
   grid-auto-flow: row;
   gap: 15px;
   width: 100%;
-  height: 350px;
+  height: 315px;
   overflow-y: auto;
   overscroll-behavior-y: contain;
   scroll-snap-type: y mandatory;
