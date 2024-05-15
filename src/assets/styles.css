@@ -15,12 +15,12 @@ details {
   width: auto;
   height: 45px;
   padding: 35px 45px 0px 0px;
-  border: 1px solid red;
+  border: 1px none red;
 }
 
 .nav-container a {
   color: white;
-  text-decoration: solid;
+  text-decoration: none;
   font-size: 20px;
 }
 
@@ -44,12 +44,12 @@ nav div {
 
 .sitename-container {
   display: flex;
-  border: blue 1px solid;
+  border: blue 1px none;
   justify-content: left;
 }
 
 .main-content-link {
-  text-decoration: solid;
+  text-decoration: none;
 }
 
 .collage-container {
@@ -113,7 +113,7 @@ nav div {
   
 .main-content-container-discover-page {
   background-color: black;
-  border: yellow 1px solid;
+  border: yellow 1px none;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -124,7 +124,7 @@ nav div {
   /* Used to enable scrolling */
 
 .discover-container {
-  border: rebeccapurple 1px solid;
+  border: rebeccapurple 1px none;
   max-width: 1300px;
   width: 100%;
   display: flex;
@@ -169,11 +169,11 @@ nav div {
 }
 
 .nrotw-area{
-  border: solid 1px red;
+  border: none 1px red;
 }
 
 .nrotw-feature-area {
-  border: solid 1px blue;
+  border: none 1px blue;
   width: 26%;
 }
 
@@ -283,7 +283,7 @@ nav div {
 
 .album-art {
   display: flex;
-  border: 1px solid orange;
+  border: 1px none orange;
   justify-content: center;
   margin: 0;
   width: 100%;
@@ -295,9 +295,13 @@ nav div {
   width: 275px;
   height: 275px;
 }
+.album-image:hover{
+transform: scale(1.10); 
+background-image: none;
+}
 
 .album-descriptions-container {
-  border: grey 1px solid;
+  border: grey 1px none;
   max-width: 1300px;
   width: 100%;
   display: flex;
@@ -307,7 +311,7 @@ nav div {
 }
 
 .album-title-area {
-  border: yellow 1px solid;
+  border: yellow 1px none;
   display: flex;
   flex-direction: column;
   width: 274px;
@@ -341,7 +345,7 @@ nav div {
 }
 
 .sotd-info {
-  border: red 1px solid;
+  border: red 1px none;
   max-width: 1300px;
   width: 100%;
   display: flex;
@@ -353,7 +357,7 @@ nav div {
 
 .sotd-logo-container-left {
   display: flex;
-  border: solid 1px rosybrown;
+  border: none 1px rosybrown;
   justify-content: center;
   margin: 0;
   background-image: url("Kevin.jpg");
@@ -366,7 +370,7 @@ nav div {
 
 .sotd-logo-container-right {
   display: flex;
-  border: solid 1px yellow;
+  border: none 1px yellow;
   flex-direction: column;
 }
 
@@ -412,14 +416,14 @@ nav div {
 
 .sotd-description-container {
   display: flex;
-  border: 1px solid olive;
+  border: 1px none olive;
   flex-direction: row;
   justify-content: space-around;
 }
 
 
 .song-of-the-day-description-left {
-  border: 1px solid burlywood;
+  border: 1px none burlywood;
   display: flex;
   flex-direction: column;
   width: 450px;
@@ -428,7 +432,7 @@ nav div {
 }
 
 .song-of-the-day-description-right {
-  border: 1px solid lawngreen;
+  border: 1px none lawngreen;
   display: flex;
   flex-direction: column;
   width: 450px;
@@ -492,7 +496,7 @@ nav div {
 .playlists-heading-container {
   color: white;
   font-family: "Inter Tight";
-  border: yellow 1px solid;
+  border: yellow 1px none;
   padding-bottom: 150px;
   width: 100%;
   height: 60px;
@@ -532,7 +536,7 @@ nav div {
 
 .linked-playlists-container {
   display: flex;
-  border: 1px solid orange;
+  border: 1px none orange;
   justify-content: center;
   margin: 0;
   width: 100%;
@@ -554,7 +558,7 @@ nav div {
 }
 
 .playlists-descriptions-container {
-  border: grey 1px solid;
+  border: grey 1px none;
   max-width: 1300px;
   width: 100%;
   display: flex;
@@ -565,7 +569,7 @@ nav div {
 }
 
 .playlist-title-area-one {
-  border: yellow 1px solid;
+  border: yellow 1px none;
   display: flex;
   flex-direction: column;
   width: 250px;
@@ -582,7 +586,7 @@ nav div {
 }
 
 .playlist-title-area-two {
-  border: lightcoral 1px solid;
+  border: lightcoral 1px none;
   display: flex;
   flex-direction: column;
   width: 250px;
@@ -598,7 +602,7 @@ nav div {
 }
 
 .playlist-title-area-three {
-  border: greenyellow 1px solid;
+  border: greenyellow 1px none;
   display: flex;
   flex-direction: column;
   width: 250px;
@@ -629,7 +633,7 @@ nav div {
 }
 
 .appreciate-news-container {
-  border: 1px solid yellow;
+  border: 1px none yellow;
   display: flex;
   flex-direction: row;
   color: white;
@@ -643,7 +647,7 @@ nav div {
 }
 
 .news-text {
-  border: 1px solid green;
+  border: 1px none green;
   margin-left: 60px;
   color: white;
   font-family: Inter+Tight;
@@ -672,7 +676,7 @@ nav div {
 }
 
 .column-labels-container{
-  border: 1px solid grey;
+  border: 1px none grey;
   margin-top: 50px;
 }
 
@@ -685,7 +689,7 @@ nav div {
 
 .label{
   color: white;
-  border: 1px solid gold;
+  border: 1px none gold;
   width: 297px;
   margin-bottom: 0px;
   font-size: 15px;
@@ -693,7 +697,7 @@ nav div {
 
 .column-container {
   display: flex;
-  border: 1px solid pink;
+  border: 1px none pink;
   flex-direction: column;
 }
 
@@ -710,7 +714,7 @@ nav div {
 }
 
 .column-container-text{
-  border: 1px solid green;
+  border: 1px none green;
   display: flex;
   flex-direction: row;
   gap: 124px;
@@ -719,12 +723,12 @@ nav div {
 }
 
 .column-container-description {
-  border: 1px solid red;
+  border: 1px none red;
   height: 180px;
 }
 
 .column-link{
-  text-decoration-line:solid;
+  text-decoration-line:none;
 }
 
 .column-link:hover{
@@ -734,7 +738,7 @@ nav div {
 }
 
 .column-header{
-  border:1px solid blue;
+  border:1px none blue;
   display: flex;
   flex-direction:column;
   width: 297px;
@@ -742,7 +746,7 @@ nav div {
 }
 
 .column-text{
-  border:1px solid white;
+  border:1px none white;
   display: flex;
   flex-direction:row;
   width: 297px;
@@ -773,7 +777,7 @@ margin: 0px;
 }
 
 .culture-container{
-  border: 1px solid yellow;
+  border: 1px none yellow;
   display: flex;
 }
 
@@ -821,7 +825,7 @@ section div{
 }
 
 .left-page{
-  border: 1px solid blue;
+  border: 1px none blue;
   width: 33.1%;
   height: 100%;
   display:flex;
@@ -829,7 +833,7 @@ section div{
 }
 
 .accordian-container{
-  border: 1px solid orange;
+  border: 1px none orange;
   display: flex;
   flex-direction: row;
   margin-bottom: 10px;
@@ -919,7 +923,7 @@ hr {
 }
   
 .advice-container {
-  border: 1px solid orange;
+  border: 1px none orange;
   display: flex;
   justify-content: center;
 }
@@ -937,7 +941,7 @@ hr {
 .profile-container{
   display: flex;
   flex-direction: row;
-  border: 1px solid red;
+  border: 1px none red;
   justify-content: space-between;
 }
 
@@ -952,12 +956,13 @@ hr {
 .profile-image img{
   height: 600px;
   width: 600px;
-  border: 1px solid purple;
+  border: 1px none purple;
   display:flex;
+  padding-left: 30px;
 }
 
 .profile-list{
-  border: 1px solid white;
+  border: 1px none white;
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -987,11 +992,11 @@ hr {
 }
 
 .profile-section {
-  border: 1px solid blue;
+  border: 1px none blue;
 }
 
 .journal-container {
-  border: 1px solid limegreen;
+  border: 1px none limegreen;
   display: flex;
   justify-content: center;
 }
@@ -1007,13 +1012,13 @@ margin: 30px;
   flex-direction: row;
   width: 100%;
   height: 300px;
-  border: 1px solid blue;
+  border: 1px none blue;
   justify-content: center;
   gap: 70px;
 }
 
 .journal-left {
-border: 1px solid red;
+border: 1px none red;
 color: white;
 width: 42%;
 display: flex;
@@ -1031,7 +1036,7 @@ flex-direction: column;
 
 .journal-right {
 color: white;
-border: 1px solid red;
+border: 1px none red;
 width: 19%;
 display: flex;
 flex-direction: column;
