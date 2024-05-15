@@ -543,6 +543,7 @@ nav div {
   margin: 0;
   width: 100%;
   gap: 33px;
+  margin-top: 20px;
 }
 
 .playlist-image {
