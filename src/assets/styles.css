@@ -67,6 +67,8 @@ nav div {
   width: 100%;
   overflow: hidden;
   background-color: black;
+  font-family: Inter+Tight;
+  font-weight: 700;
 }
 
 .scrolling-text-homepage {
@@ -371,7 +373,7 @@ nav div {
 .sotd-part-one {
   color: white;
   font-family: "Inter Tight";
-  font-weight: 500;
+  font-weight: 700;
   font-size: 70px;
   margin: 0;
   text-transform: uppercase;
@@ -380,7 +382,7 @@ nav div {
 .sotd-part-two {
   color: white;
   font-family: "Inter Tight";
-  font-weight: 500;
+  font-weight: 700;
   font-size: 20px;
   margin: 0;
   padding: 0;
@@ -391,7 +393,7 @@ nav div {
 .sotd-part-three {
   color: white;
   font-family: "Inter Tight";
-  font-weight: 500;
+  font-weight: 700;
   font-size: 20px;
   margin: 0;
   height: 17px;
@@ -402,7 +404,7 @@ nav div {
 .sotd-part-four {
   color:white;
   font-family: "Inter Tight";
-  font-weight: 500;
+  font-weight: 700;
   font-size: 20px;
   margin: 0;
   text-transform: uppercase;
@@ -437,7 +439,7 @@ nav div {
 .sotdl-one {
   color: white;
   font-family: "Inter Tight";
-  font-weight: 500;
+  font-weight: 600;
   margin: 0;
   font-size: 100px;
   height: 80px;
@@ -446,7 +448,7 @@ nav div {
 .sotdl-two {
   color: white;
   font-family: "Inter Tight";
-  font-weight: 500;
+  font-weight: 600;
   margin: 0;
   font-size: 100px;
   height: 200px;
@@ -455,7 +457,7 @@ nav div {
 .sotdl-three {
   color: white;
   font-family: "Inter Tight";
-  font-weight: 500;
+  font-weight: 300;
   font-size: 25px;
   margin: 0;
 }
@@ -474,7 +476,7 @@ nav div {
 .sotdr-three {
   color: white;
   font-family: "Inter Tight";
-  font-weight: 500;
+  font-weight: 700;
   font-size: 15px;
   margin: 0;
   height: 1px;
@@ -637,12 +639,15 @@ nav div {
 .news-image {
   height: 450px;
   width: 650px;
-  padding: 40px 0px 40px 70px
+  padding: 40px 0px 40px 90px
 }
 
 .news-text {
   border: 1px solid green;
-  margin-left: 30px;
+  margin-left: 60px;
+  color: white;
+  font-family: Inter+Tight;
+  font-weight: 500;
 }
 
 .news-one {
@@ -683,6 +688,7 @@ nav div {
   border: 1px solid gold;
   width: 297px;
   margin-bottom: 0px;
+  font-size: 15px;
 }
 
 .column-container {
@@ -777,34 +783,36 @@ margin: 0px;
 }
 
 summary{
-  color: black;
+  color: white;
   font-size: 45px;
   display: flex;
   cursor: pointer;
-  padding: 5px;
+  padding: 10px;
   width: 99%;
   justify-content: space-between;
+  font-family: Inter+Tight;
+  font-weight: 700;
 }
 
 summary:hover {
-  color: pink;
-  background-color: black
+  color: black;
+  background-color: pink;
 }
 
 .menu1{
-background-color: #e984b5;
+background-color: #1a000a;
 }
 
 .menu2{
-background-color: #ec70a9;
+background-color:#26000f;
 }
 
 .menu3{
-  background-color: #f05c9d;
+  background-color: #330014;
 }
 
 .menu4{
-  background-color:#f34991;
+  background-color:#40001a;
   }
 
 section div{
@@ -920,6 +928,10 @@ hr {
   color: white;
   font-size: 40px;
   margin-left: 30px;
+  font-family: "Inter Tight";
+  font-weight: 700;
+  width: 85%;
+  text-align: center;
 }
 
 .profile-container{
@@ -958,12 +970,16 @@ hr {
 .profile-advice {
   font-size: 40px;
   margin: 0;
+  font-family: "Inter Tight";
+  font-weight: 700;
 }
 
 .profile-advice-sub {
   font-size: 20px;
   margin: 0;
   margin-bottom: 10px;
+  font-family: "Inter Tight";
+  font-weight: 300;
 }
 
 .profile-section {
@@ -1038,21 +1054,25 @@ justify-content: center;
 
 .song-of-the-day {
   color: white;
-  font-size: 80px;
+  font-size: 40px;
   padding: 10px 0px 0px 0px;
   text-align: center;
-  margin: 75px 0px 75px 0px
+  margin: 160px 0px 15px 0px;
+  font-family: Inter+Tight;
+  font-weight: 700;
 }
 
 .music-video-container {
   display: flex;
   width: 100%;
   justify-content: center;
+  margin: 0;
 }
 
 .music-video {
   width: 80%;
   height: 30%;
+  margin: 0;
 }
 
 .spotify-bar-container {

@@ -51,10 +51,11 @@
   display: flex;
   color: white;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 13px;
   width: 160px;
   padding-top: 10px;
   padding-left: 40px;
+  font-family: Inter+Tight;
 }
 
 .header-logo-link:hover {
