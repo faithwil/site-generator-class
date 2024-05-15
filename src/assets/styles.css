@@ -779,10 +779,11 @@ margin: 0px;
 summary{
   color: black;
   font-size: 55px;
-  display: block;
+  display: flex;
   cursor: pointer;
   padding: 5px;
   width: 99%;
+  justify-content: space-between;
 }
 
 summary:hover {
@@ -805,14 +806,6 @@ background-color: #ec70a9;
 .menu4{
   background-color:#f34991;
   }
-  
-  .menu5{
-  background-color: #f63586;
-  }
-  
-  .menu6{
-    background-color: #fa217a;
-  }
 
 section div{
   font-size: 20px;
@@ -832,6 +825,7 @@ section div{
   display: flex;
   flex-direction: row;
   margin-bottom: 10px;
+  justify-content: center;
 }
 
 .thumbnails {
@@ -925,6 +919,7 @@ hr {
 .advice-description{
   color: white;
   font-size: 40px;
+  margin-left: 30px;
 }
 
 .profile-container{
@@ -951,7 +946,7 @@ hr {
 }
 
 .profile-list h1{
-  font-size: 80px;
+  font-size: 50px;
   margin: 0;
   margin-bottom: 5px;
 }
@@ -964,6 +959,7 @@ hr {
 .profile-advice-sub{
   font-size: 20px;
   margin: 0;
+  margin-bottom: 10px;
 }
 
 .profile-section{
