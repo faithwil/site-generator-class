@@ -929,6 +929,10 @@ hr {
   justify-content: space-between;
 }
 
+.plus{
+  margin-right: 75px;
+}
+
 .profile-image img{
   height: 600px;
   width: 600px;
@@ -951,20 +955,79 @@ hr {
   margin-bottom: 5px;
 }
 
-.profile-advice{
+.profile-advice {
   font-size: 40px;
   margin: 0;
 }
 
-.profile-advice-sub{
+.profile-advice-sub {
   font-size: 20px;
   margin: 0;
   margin-bottom: 10px;
 }
 
-.profile-section{
+.profile-section {
   border: 1px solid blue;
 }
+
+.journal-container {
+  border: 1px solid limegreen;
+  display: flex;
+  justify-content: center;
+}
+
+.journal-container img {
+width: 85%;
+height: 550px;
+margin: 30px;
+}
+
+.journal-description {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 300px;
+  border: 1px solid blue;
+  justify-content: center;
+}
+
+.journal-left {
+border: 1px solid red;
+color: white;
+width: 42%;
+display: flex;
+flex-direction: column;
+}
+
+.journal-left p {
+  color: white;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+  }
+
+.journal-right {
+color: white;
+border: 1px solid red;
+width: 42%;
+display: flex;
+flex-direction: column;
+}
+
+.journal-right h1 {
+margin: 0;
+font-size: 50px;
+margin-bottom: 10px;
+padding-left: 40px;
+  }
+
+.journal-right p {
+  color: white;
+  margin: 0;
+  font-size: 25px;
+  margin-bottom: 10px;
+  padding-left: 40px;
+  }
 
 .song-of-the-day {
   color: white;
