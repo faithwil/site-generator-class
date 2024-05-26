@@ -780,10 +780,11 @@ margin: 0px;
 .culture-container{
   border: 1px none yellow;
   display: flex;
+  width: 100%;
 }
 
 .culture-top-image{
-  height: 530px;
+  height: 45%;
   width: 100%;
 }
 
